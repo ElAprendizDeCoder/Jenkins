@@ -1,0 +1,7 @@
+Started by user [8mha:////4GyyfRgOYqP9QnToQGyfBCDs04Nmf8/iFnsJ2aEIHml4AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYe/dLi1CL9lMSyktQiAL7SFFnBAAAA[0mDavid Rangel
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Test2Job
+[Test2Job] $ /bin/sh -xe /tmp/jenkins1993447880068807893.sh
++ /opt/saludo.sh David Gonzalez false
+Si quieres ver el nombre , selecciona la casilla de MOSTRAR 
+Finished: SUCCESS

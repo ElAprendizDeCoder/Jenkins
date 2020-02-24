@@ -1,0 +1,16 @@
+Started by user [8mha:////4GyyfRgOYqP9QnToQGyfBCDs04Nmf8/iFnsJ2aEIHml4AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYe/dLi1CL9lMSyktQiAL7SFFnBAAAA[0mDavid Rangel
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/remote-Task
+[SSH] script:
+
+Name="David"
+echo "Hola, $Nombre, la hora es $(date)" > /opt/test 
+
+[SSH] executing...
+bash: line 2: /opt/test: Permission denied
+
+[SSH] completed
+[SSH] exit-status: 1
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE

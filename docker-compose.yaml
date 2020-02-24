@@ -7,12 +7,32 @@ services:
     ports: 
       - "8080:8080"
       - "50000:50000"
-
     volumes:
       - $PWD/jenkins_home:/var/jenkins_home
     restart: always 
     networks:
       - net
+
+  remote_host: 
+    container_name: remote_host
+    image: remote_host
+    build:
+      context: ssh_service
+    restart: always
+    volumes:
+      - $PWD/auto.sh:/tmp/auto.sh
+    networks:
+      - net
+  my_db:
+    container_name: my_db
+    image: mysql:5.7
+    environment: 
+      - "MYSQL_ROOT_PASSWORD=1234"
+    volumes: 
+      - $PWD/db_data:/var/lib/mysql
+    networks:
+      - net         
+
 
 
 networks:
