@@ -111,3 +111,45 @@ ls
 cat /var/jenkins_home/ansible/playbook1.yml
 cat /var/jenkins_home/ansible/playbook1.yml
 exit
+ssh my_web
+ansible -m ping web1
+ansible -m ping -i /var/jenkins_home/ansible/hosts web1
+cd /var/jenkins_home/ansible/
+ls
+ls
+ls
+ssh -i masterKey remote_user@my_web
+ls
+ls -l
+exit
+cd /var/jenkins_home/ansible/
+ls
+ssh -i masterKey remote_user@my_web
+ls
+ansible -m ping -i /var/jenkins_home/ansible/hosts web1
+ls
+exit
+cd /var/jenkins_home/
+ls
+cd ansible/
+ls
+ansible-playbook -i hosts people.yml 
+ssh -i masterKey remote_user@my_web
+ls
+ls
+ansible-playbook -i hosts people.yml 
+vim people.yml 
+vi people.yml 
+exit
+cd /var/jenkins_home/ansible/
+ls
+ansible-playbook people.yml -i hosts 
+ansible-playbook people.yml -i hosts -e "EDAD=22"
+ansible-playbook people.yml -i hosts -e "EDAD=24"
+pwd
+ls
+pwd
+ls
+pwd
+ls
+exit
