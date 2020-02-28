@@ -1,0 +1,54 @@
+2020-02-28_18:14:27.20089 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2020-02-28_18:14:27.24630 LOG:  database system was shut down at 2020-02-28 18:14:20 GMT
+2020-02-28_18:14:27.27201 LOG:  database system is ready to accept connections
+2020-02-28_18:26:57.28474 ERROR:  canceling statement due to statement timeout
+2020-02-28_18:27:00.03516 STATEMENT:  SELECT a.attname
+2020-02-28_18:27:00.03516 	  FROM (
+2020-02-28_18:27:00.03517 	         SELECT indrelid, indkey, generate_subscripts(indkey, 1) idx
+2020-02-28_18:27:00.03517 	           FROM pg_index
+2020-02-28_18:27:00.03517 	          WHERE indrelid = '"project_mirror_data"'::regclass
+2020-02-28_18:27:00.03517 	            AND indisprimary
+2020-02-28_18:27:00.03518 	       ) i
+2020-02-28_18:27:00.03518 	  JOIN pg_attribute a
+2020-02-28_18:27:00.03518 	    ON a.attrelid = i.indrelid
+2020-02-28_18:27:00.03518 	   AND a.attnum = i.indkey[i.idx]
+2020-02-28_18:27:00.03518 	 ORDER BY i.idx
+2020-02-28_18:27:00.03519 	
+2020-02-28_18:32:30.64569 ERROR:  canceling statement due to statement timeout
+2020-02-28_18:32:30.83390 STATEMENT:  SELECT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name='projects' AND column_name='mirror')
+2020-02-28_18:32:30.83392 	
+2020-02-28_18:33:12.69365 ERROR:  canceling statement due to statement timeout
+2020-02-28_18:33:12.89590 STATEMENT:  SELECT name, setting, COALESCE(unit, ''), short_desc, vartype FROM pg_settings WHERE vartype IN ('bool', 'integer', 'real');
+2020-02-28_18:36:44.08428 ERROR:  canceling statement due to statement timeout
+2020-02-28_18:36:44.69331 STATEMENT:  SELECT * FROM pg_stat_database_conflicts;
+2020-02-28_18:40:13.89722 ERROR:  canceling statement due to statement timeout
+2020-02-28_18:40:14.33499 STATEMENT:  SELECT pg_database.datname,tmp.mode,COALESCE(count,0) as count
+2020-02-28_18:40:14.33501 				FROM
+2020-02-28_18:40:14.33501 					(
+2020-02-28_18:40:14.33501 					  VALUES ('accesssharelock'),
+2020-02-28_18:40:14.33502 					         ('rowsharelock'),
+2020-02-28_18:40:14.33502 					         ('rowexclusivelock'),
+2020-02-28_18:40:14.33502 					         ('shareupdateexclusivelock'),
+2020-02-28_18:40:14.33502 					         ('sharelock'),
+2020-02-28_18:40:14.33502 					         ('sharerowexclusivelock'),
+2020-02-28_18:40:14.33503 					         ('exclusivelock'),
+2020-02-28_18:40:14.33503 					         ('accessexclusivelock')
+2020-02-28_18:40:14.33503 					) AS tmp(mode) CROSS JOIN pg_database
+2020-02-28_18:40:14.33503 				LEFT JOIN
+2020-02-28_18:40:14.33504 				  (SELECT database, lower(mode) AS mode,count(*) AS count
+2020-02-28_18:40:14.33504 				  FROM pg_locks WHERE database IS NOT NULL
+2020-02-28_18:40:14.33504 				  GROUP BY database, lower(mode)
+2020-02-28_18:40:14.33504 				) AS tmp2
+2020-02-28_18:40:14.33504 				ON tmp.mode=tmp2.mode and pg_database.oid = tmp2.database ORDER BY 1
+2020-02-28_18:48:11.83661 ERROR:  canceling statement due to statement timeout
+2020-02-28_18:48:12.14924 STATEMENT:  
+2020-02-28_18:48:12.28987 				SELECT *,
+2020-02-28_18:48:12.28987 					(case pg_is_in_recovery() when 't' then null else pg_current_wal_lsn() end) AS pg_current_wal_lsn,
+2020-02-28_18:48:12.28987 					(case pg_is_in_recovery() when 't' then null else pg_wal_lsn_diff(pg_current_wal_lsn(), pg_lsn('0/0'))::float end) AS pg_current_wal_lsn_bytes,
+2020-02-28_18:48:12.28988 					(case pg_is_in_recovery() when 't' then null else pg_wal_lsn_diff(pg_current_wal_lsn(), replay_lsn)::float end) AS pg_wal_lsn_diff
+2020-02-28_18:48:12.28988 				FROM pg_stat_replication
+2020-02-28_18:48:12.28988 				
+2020-02-28_18:50:23.89971 LOG:  could not send data to client: Broken pipe
+2020-02-28_18:50:25.04042 FATAL:  connection to client lost
+2020-02-28_18:51:44.04048 ERROR:  canceling statement due to statement timeout
+2020-02-28_18:51:44.33722 STATEMENT:  SELECT * FROM pg_stat_database;

@@ -1,0 +1,148 @@
+2020-02-28_19:07:40.42653 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2020-02-28_19:07:41.17669 LOG:  database system was interrupted; last known up at 2020-02-28 18:34:50 GMT
+2020-02-28_19:07:41.19865 FATAL:  the database system is starting up
+2020-02-28_19:07:42.20538 FATAL:  the database system is starting up
+2020-02-28_19:07:43.60418 LOG:  database system was not properly shut down; automatic recovery in progress
+2020-02-28_19:07:43.63335 LOG:  invalid record length at 0/2168CB0: wanted 24, got 0
+2020-02-28_19:07:43.63336 LOG:  redo is not required
+2020-02-28_19:07:43.70406 LOG:  database system is ready to accept connections
+2020-02-28_19:10:58.80355 ERROR:  canceling statement due to statement timeout
+2020-02-28_19:10:59.55350 STATEMENT:  with table_opts_vs_statistic as (
+2020-02-28_19:10:59.70981 	  select
+2020-02-28_19:10:59.70981 	    pg_class.oid,
+2020-02-28_19:10:59.70981 	    pg_class.relname,
+2020-02-28_19:10:59.70981 	    coalesce(nspname, 'public') as schemaname,
+2020-02-28_19:10:59.70982 	    pg_class.relpages,
+2020-02-28_19:10:59.70982 	    pg_class.reltuples,
+2020-02-28_19:10:59.70982 	    case
+2020-02-28_19:10:59.70982 	      when array_to_string(reloptions, '') like '%autovacuum_vacuum_threshold%' then regexp_replace(array_to_string(reloptions, ''), '.*autovacuum_vacuum_threshold=([0-9.]+).*', E'\\1')::int8
+2020-02-28_19:10:59.70983 	      else current_setting('autovacuum_vacuum_threshold')::int8
+2020-02-28_19:10:59.70983 	    end as autovacuum_vacuum_threshold,
+2020-02-28_19:10:59.70983 	    case
+2020-02-28_19:10:59.70984 	      when array_to_string(reloptions, '') like '%autovacuum_vacuum_scale_factor%' then regexp_replace(array_to_string(reloptions, ''), '.*autovacuum_vacuum_scale_factor=([0-9.]+).*', E'\\1')::numeric
+2020-02-28_19:10:59.70984 	      else current_setting('autovacuum_vacuum_scale_factor')::numeric
+2020-02-28_19:10:59.70984 	    end as autovacuum_vacuum_scale_factor,
+2020-02-28_19:10:59.70984 	    case when array_to_string(reloptions, '') ~ 'autovacuum_enabled=(false|off)' then false else true end as autovacuum_enabled,
+2020-02-28_19:10:59.70985 	    n_dead_tup,
+2020-02-28_19:11:00.00724 	    last_autovacuum,
+2020-02-28_19:11:00.41293 	    last_vacuum
+2020-02-28_19:11:00.41294 	  from pg_class
+2020-02-28_19:11:00.41294 	  join pg_namespace ns on relnamespace = ns.oid 
+2020-02-28_19:11:00.41294 	  join pg_stat_all_tables psat  on psat.relid  = pg_class.oid
+2020-02-28_19:11:00.41294 	  where relkind in ('r','m') 
+2020-02-28_19:11:00.41295 	), p as (
+2020-02-28_19:11:00.41295 	  select pgspv.*,a.query,a.wait_event_type,a.wait_event,a.query_start
+2020-02-28_19:11:00.41295 	  from pg_stat_progress_vacuum pgspv
+2020-02-28_19:11:00.41295 	  left join pg_stat_activity a using (pid)
+2020-02-28_19:11:00.41296 	) 
+2020-02-28_19:11:00.41296 	select
+2020-02-28_19:11:00.41296 	  table_opts_vs_statistic.schemaname as schemaname,
+2020-02-28_19:11:00.41296 	  table_opts_vs_statistic.relname as relname,
+2020-02-28_19:11:00.41296 	  round((100 * table_opts_vs_statistic.n_dead_tup::numeric / nullif(table_opts_vs_statistic.reltuples, 0))::numeric, 2) as dead_tup_pct,
+2020-02-28_19:11:00.41297 	  table_opts_vs_statistic.reltuples::numeric as reltuples,
+2020-02-28_19:11:00.41297 	  table_opts_vs_statistic.n_dead_tup,
+2020-02-28_19:11:00.41297 	  (relpages::bigint*8*1024) AS table_size_bytes,
+2020-02-28_19:11:00.41297 	  'V. Threshold:' || table_opts_vs_statistic.autovacuum_vacuum_threshold
+2020-02-28_19:11:00.41298 	    || ', V. Scale Factor: ' || (table_opts_vs_statistic.autovacuum_vacuum_scale_factor)::numeric *100 ||' %'
+2020-02-28_19:11:00.41298 	    || case when not autovacuum_enabled then ', DISABLED' else ', enabled' end as "effective_settings",
+2020-02-28_19:11:00.41300 	  case
+2020-02-28_19:11:00.41300 	    when last_autovacuum > coalesce(last_vacuum, '0001-01-01') then last_autovacuum::timestamp(0)
+2020-02-28_19:11:00.41300 	    when last_vacuum is not null then last_vacuum::timestamp(0)
+2020-02-28_19:11:00.41301 	    else null
+2020-02-28_19:11:00.41301 	  end as "last_vacuumed",
+2020-02-28_19:11:00.41302 	  case
+2020-02-28_19:11:00.41302 	    when last_autovacuum > coalesce(last_vacuum, '0001-01-01') then 'auto'
+2020-02-28_19:11:00.41302 	    when last_vacuum is not null then 'manual'
+2020-02-28_19:11:00.41303 	    else null
+2020-02-28_19:11:00.41303 	  end as "type",
+2020-02-28_19:11:00.41303 	  coalesce(p.phase, 'in queue') as status,
+2020-02-28_19:11:00.41303 	  p.pid as pid,
+2020-02-28_19:11:00.41303 	  coalesce  (p.query,'')as  action,
+2020-02-28_19:11:00.41304 	  case when p.pid is null then null else coalesce(wait_event_type ||'.'|| wait_event, 'f') end as waiting,
+2020-02-28_19:11:00.41304 	  round(100.0 * p.heap_blks_scanned / nullif(p.heap_blks_total, 0), 1) AS scanned_pct,
+2020-02-28_19:11:00.41304 	  round(100.0 * p.heap_blks_vacuumed / nullif(p.heap_blks_total, 0), 1) AS vacuumed_pct,
+2020-02-28_19:11:00.41304 	  extract ('epoch' from  now()-query_start) elapsed_time
+2020-02-28_19:11:00.41304 	from 
+2020-02-28_19:11:00.41305 	table_opts_vs_statistic
+2020-02-28_19:11:00.41305 	full outer join p on p.relid = table_opts_vs_statistic.oid and p.datname = current_database()
+2020-02-28_19:11:00.41305 	where
+2020-02-28_19:11:00.41305 	  table_opts_vs_statistic.relpages >= 8
+2020-02-28_19:11:00.41306 	  and  autovacuum_vacuum_threshold + (autovacuum_vacuum_scale_factor::numeric * table_opts_vs_statistic.reltuples) < table_opts_vs_statistic.n_dead_tup
+2020-02-28_19:11:00.41307 	
+2020-02-28_19:13:04.66377 ERROR:  canceling statement due to statement timeout
+2020-02-28_19:13:04.96024 STATEMENT:  SELECT
+2020-02-28_19:13:05.05392 	  subquery.namespace_id,
+2020-02-28_19:13:05.05393 	  subquery.shared_runners_enabled,
+2020-02-28_19:13:05.05393 	  subquery.project_id,
+2020-02-28_19:13:05.05393 	  subquery.status,
+2020-02-28_19:13:05.05393 	  subquery.has_minutes,
+2020-02-28_19:13:05.05394 	  MAX(subquery.count) as count
+2020-02-28_19:13:05.05394 	FROM (
+2020-02-28_19:13:05.05394 	  SELECT
+2020-02-28_19:13:05.05394 	    projects.namespace_id,
+2020-02-28_19:13:05.05395 	    projects.shared_runners_enabled,
+2020-02-28_19:13:05.05432 	    ci_builds.project_id,
+2020-02-28_19:13:05.05433 	    ci_builds.commit_id,
+2020-02-28_19:13:05.05433 	    ci_builds.status,
+2020-02-28_19:13:05.05433 	    (COALESCE(namespaces.shared_runners_minutes_limit, application_settings.shared_runners_minutes, 0) = 0 OR
+2020-02-28_19:13:05.05434 	       COALESCE(namespace_statistics.shared_runners_seconds, 0) < COALESCE(namespaces.shared_runners_minutes_limit, application_settings.shared_runners_minutes, 0) * 60) as has_minutes,
+2020-02-28_19:13:05.05434 	    COUNT(*) AS count
+2020-02-28_19:13:05.05434 	  FROM ci_builds
+2020-02-28_19:13:05.05434 	  JOIN projects
+2020-02-28_19:13:05.05434 	    ON projects.id = ci_builds.project_id
+2020-02-28_19:13:05.05435 	  JOIN namespaces
+2020-02-28_19:13:05.05435 	    ON namespaces.id = projects.namespace_id
+2020-02-28_19:13:05.05435 	  LEFT JOIN namespace_statistics
+2020-02-28_19:13:05.05435 	    ON namespace_statistics.namespace_id = namespaces.id
+2020-02-28_19:13:05.05436 	  JOIN application_settings
+2020-02-28_19:13:05.05436 	    ON application_settings.id = 1
+2020-02-28_19:13:05.05436 	  WHERE ci_builds.type = 'Ci::Build'
+2020-02-28_19:13:05.05439 	    AND ci_builds.status IN ('running', 'pending')
+2020-02-28_19:13:05.05439 	    -- The created_at filter has been introduced for performance reasons only
+2020-02-28_19:13:05.05440 	    AND ci_builds.created_at > NOW() - INTERVAL '7 days'
+2020-02-28_19:13:05.05440 	  GROUP BY
+2020-02-28_19:13:05.05440 	    projects.namespace_id,
+2020-02-28_19:13:05.05440 	    projects.shared_runners_enabled,
+2020-02-28_19:13:05.05441 	    ci_builds.project_id,
+2020-02-28_19:13:05.05441 	    ci_builds.commit_id,
+2020-02-28_19:13:05.05441 	    ci_builds.status,
+2020-02-28_19:13:05.05441 	    ci_builds.commands,
+2020-02-28_19:13:05.05441 	    namespaces.shared_runners_minutes_limit,
+2020-02-28_19:13:05.05442 	    namespace_statistics.shared_runners_seconds,
+2020-02-28_19:13:05.05442 	    application_settings.shared_runners_minutes
+2020-02-28_19:13:05.05442 	  HAVING COUNT(*) > 2
+2020-02-28_19:13:05.05443 	) AS subquery
+2020-02-28_19:13:05.05443 	GROUP BY
+2020-02-28_19:13:05.05443 	  subquery.namespace_id,
+2020-02-28_19:13:05.05444 	  subquery.shared_runners_enabled,
+2020-02-28_19:13:05.05444 	  subquery.project_id,
+2020-02-28_19:13:05.05444 	  subquery.commit_id,
+2020-02-28_19:13:05.05444 	  subquery.status,
+2020-02-28_19:13:05.05444 	  subquery.has_minutes
+2020-02-28_19:13:05.05444 	
+2020-02-28_19:15:28.55429 ERROR:  canceling statement due to statement timeout
+2020-02-28_19:15:28.75749 CONTEXT:  SQL function "col_description" during startup
+2020-02-28_19:15:28.75751 STATEMENT:  SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2020-02-28_19:15:28.75751 	       pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+2020-02-28_19:15:28.75751 	       c.collname, col_description(a.attrelid, a.attnum) AS comment
+2020-02-28_19:15:28.75751 	  FROM pg_attribute a
+2020-02-28_19:15:28.75752 	  LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2020-02-28_19:15:28.75752 	  LEFT JOIN pg_type t ON a.atttypid = t.oid
+2020-02-28_19:15:28.75752 	  LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+2020-02-28_19:15:28.75752 	 WHERE a.attrelid = '"todos"'::regclass
+2020-02-28_19:15:28.75752 	   AND a.attnum > 0 AND NOT a.attisdropped
+2020-02-28_19:15:28.75753 	 ORDER BY a.attnum
+2020-02-28_19:15:28.75753 	
+2020-02-28_19:17:58.25742 ERROR:  canceling statement due to statement timeout
+2020-02-28_19:17:58.35142 STATEMENT:  SELECT a.attname
+2020-02-28_19:17:58.35147 	  FROM (
+2020-02-28_19:17:58.35147 	         SELECT indrelid, indkey, generate_subscripts(indkey, 1) idx
+2020-02-28_19:17:58.35148 	           FROM pg_index
+2020-02-28_19:17:58.35148 	          WHERE indrelid = '"users"'::regclass
+2020-02-28_19:17:58.35148 	            AND indisprimary
+2020-02-28_19:17:58.35148 	       ) i
+2020-02-28_19:17:58.35148 	  JOIN pg_attribute a
+2020-02-28_19:17:58.35149 	    ON a.attrelid = i.indrelid
+2020-02-28_19:17:58.35149 	   AND a.attnum = i.indkey[i.idx]
+2020-02-28_19:17:58.35151 	 ORDER BY i.idx
+2020-02-28_19:17:58.35151 	

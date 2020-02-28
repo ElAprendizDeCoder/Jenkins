@@ -1,0 +1,7 @@
+2020-02-28_19:07:40.71291 time="2020-02-28T19:07:40Z" level=info msg="Established new database connection to \"/var/opt/gitlab/postgresql:5432\"." source="postgres_exporter.go:878"
+2020-02-28_19:07:42.19907 time="2020-02-28T19:07:42Z" level=info msg="Established new database connection to \"/var/opt/gitlab/postgresql:5432\"." source="postgres_exporter.go:878"
+2020-02-28_19:07:44.20590 time="2020-02-28T19:07:44Z" level=info msg="Established new database connection to \"/var/opt/gitlab/postgresql:5432\"." source="postgres_exporter.go:878"
+2020-02-28_19:07:44.26286 time="2020-02-28T19:07:44Z" level=info msg="Semantic Version Changed on \"/var/opt/gitlab/postgresql:5432\": 0.0.0 -> 10.12.0" source="postgres_exporter.go:1405"
+2020-02-28_19:07:44.44516 time="2020-02-28T19:07:44Z" level=info msg="Starting Server: localhost:9187" source="postgres_exporter.go:1672"
+2020-02-28_19:13:26.35077 time="2020-02-28T19:13:19Z" level=info msg="Error running query on database \"/var/opt/gitlab/postgresql:5432\": pg_vacuum_queue pq: canceling statement due to statement timeout" source="postgres_exporter.go:1356"
+2020-02-28_19:16:37.55387 time="2020-02-28T19:16:37Z" level=error msg="queryNamespaceMappings returned 1 errors" source="postgres_exporter.go:1474"

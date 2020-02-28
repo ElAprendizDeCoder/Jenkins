@@ -1,0 +1,15 @@
+2020-02-28_19:18:25.17327 302:C 28 Feb 2020 19:18:25.167 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2020-02-28_19:18:25.17336 302:C 28 Feb 2020 19:18:25.172 # Redis version=5.0.7, bits=64, commit=4891612b, modified=0, pid=302, just started
+2020-02-28_19:18:25.17336 302:C 28 Feb 2020 19:18:25.172 # Configuration loaded
+2020-02-28_19:18:25.21349 302:M 28 Feb 2020 19:18:25.212 * Running mode=standalone, port=0.
+2020-02-28_19:18:25.21350 302:M 28 Feb 2020 19:18:25.212 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2020-02-28_19:18:25.21350 302:M 28 Feb 2020 19:18:25.212 # Server initialized
+2020-02-28_19:18:25.21351 302:M 28 Feb 2020 19:18:25.212 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2020-02-28_19:18:25.21351 302:M 28 Feb 2020 19:18:25.212 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2020-02-28_19:18:25.26043 302:M 28 Feb 2020 19:18:25.257 * DB loaded from disk: 0.044 seconds
+2020-02-28_19:18:25.26044 302:M 28 Feb 2020 19:18:25.257 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2020-02-28_19:23:26.50828 302:M 28 Feb 2020 19:23:26.102 * 10 changes in 300 seconds. Saving...
+2020-02-28_19:23:27.50832 302:M 28 Feb 2020 19:23:27.414 * Background saving started by pid 631
+2020-02-28_19:23:29.21152 631:C 28 Feb 2020 19:23:28.961 * DB saved on disk
+2020-02-28_19:23:29.30548 631:C 28 Feb 2020 19:23:29.305 * RDB: 6 MB of memory used by copy-on-write
+2020-02-28_19:23:29.35620 302:M 28 Feb 2020 19:23:29.356 * Background saving terminated with success

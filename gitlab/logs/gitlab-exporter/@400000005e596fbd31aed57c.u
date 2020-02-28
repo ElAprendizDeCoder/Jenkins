@@ -1,0 +1,7 @@
+2020-02-28_19:45:56.04383 == Sinatra (v2.0.8.1) has taken the stage on 9168 for development with backup from Puma
+2020-02-28_19:45:56.04387 Puma starting in single mode...
+2020-02-28_19:45:56.04388 * Version 4.3.1.gitlab.2 (ruby 2.6.5-p114), codename: Mysterious Traveller
+2020-02-28_19:45:56.04388 * Min threads: 0, max threads: 16
+2020-02-28_19:45:56.04388 * Environment: development
+2020-02-28_19:45:56.04388 * Listening on tcp://127.0.0.1:9168
+2020-02-28_19:45:56.04388 Use Ctrl-C to stop

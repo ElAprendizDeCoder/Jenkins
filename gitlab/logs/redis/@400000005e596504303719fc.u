@@ -1,0 +1,24 @@
+2020-02-28_18:14:10.07908 405:C 28 Feb 2020 18:14:10.078 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2020-02-28_18:14:10.07918 405:C 28 Feb 2020 18:14:10.079 # Redis version=5.0.7, bits=64, commit=4891612b, modified=0, pid=405, just started
+2020-02-28_18:14:10.07920 405:C 28 Feb 2020 18:14:10.079 # Configuration loaded
+2020-02-28_18:14:10.08039 405:M 28 Feb 2020 18:14:10.080 * Running mode=standalone, port=0.
+2020-02-28_18:14:10.08044 405:M 28 Feb 2020 18:14:10.080 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2020-02-28_18:14:10.08046 405:M 28 Feb 2020 18:14:10.080 # Server initialized
+2020-02-28_18:14:10.08049 405:M 28 Feb 2020 18:14:10.080 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2020-02-28_18:14:10.08052 405:M 28 Feb 2020 18:14:10.080 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2020-02-28_18:14:10.08075 405:M 28 Feb 2020 18:14:10.080 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2020-02-28_18:19:12.73572 405:M 28 Feb 2020 18:19:12.579 * 10 changes in 300 seconds. Saving...
+2020-02-28_18:19:14.39292 405:M 28 Feb 2020 18:19:13.485 * Background saving started by pid 887
+2020-02-28_18:19:16.64243 887:C 28 Feb 2020 18:19:16.282 * DB saved on disk
+2020-02-28_18:19:17.03331 887:C 28 Feb 2020 18:19:17.033 * RDB: 0 MB of memory used by copy-on-write
+2020-02-28_18:19:17.03930 405:M 28 Feb 2020 18:19:17.039 * Background saving terminated with success
+2020-02-28_18:28:59.69166 405:M 28 Feb 2020 18:28:59.285 * 10 changes in 300 seconds. Saving...
+2020-02-28_18:29:01.78541 405:M 28 Feb 2020 18:29:01.332 * Background saving started by pid 933
+2020-02-28_18:29:05.08293 933:C 28 Feb 2020 18:29:04.832 * DB saved on disk
+2020-02-28_18:29:05.19201 933:C 28 Feb 2020 18:29:05.083 * RDB: 0 MB of memory used by copy-on-write
+2020-02-28_18:29:05.73927 405:M 28 Feb 2020 18:29:05.442 * Background saving terminated with success
+2020-02-28_18:45:20.99215 405:M 28 Feb 2020 18:45:20.898 * 1 changes in 900 seconds. Saving...
+2020-02-28_18:45:22.70313 405:M 28 Feb 2020 18:45:22.445 * Background saving started by pid 1173
+2020-02-28_18:45:28.58658 1173:C 28 Feb 2020 18:45:28.086 * DB saved on disk
+2020-02-28_18:45:28.69696 1173:C 28 Feb 2020 18:45:28.696 * RDB: 0 MB of memory used by copy-on-write
+2020-02-28_18:45:28.78964 405:M 28 Feb 2020 18:45:28.789 * Background saving terminated with success

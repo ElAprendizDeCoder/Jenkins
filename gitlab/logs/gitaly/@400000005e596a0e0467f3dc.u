@@ -1,0 +1,44 @@
+{"level":"info","msg":"Wrapper started","time":"2020-02-28T19:18:26Z","wrapper":300}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2020-02-28T19:18:26Z","wrapper":300}
+{"level":"info","msg":"spawning a process","time":"2020-02-28T19:18:26Z","wrapper":300}
+{"gitaly":366,"level":"info","msg":"monitoring gitaly","time":"2020-02-28T19:18:26Z","wrapper":300}
+time="2020-02-28T19:18:26Z" level=info msg="Starting Gitaly" version="Gitaly, version 12.8.1"
+time="2020-02-28T19:18:26Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2020-02-28T19:18:26Z" level=info msg="clearing disk cache object folder" path=/var/opt/gitlab/git-data/repositories
+time="2020-02-28T19:18:26Z" level=info msg="moving disk cache object folder to /var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache277802178" path=/var/opt/gitlab/git-data/repositories
+time="2020-02-28T19:18:26Z" level=info msg="disk cache object folder doesn't exist, no need to remove" path=/var/opt/gitlab/git-data/repositories
+time="2020-02-28T19:18:26Z" level=info msg="Starting file walker for /var/opt/gitlab/git-data/repositories/+gitaly/cache" path=/var/opt/gitlab/git-data/repositories/+gitaly/cache
+time="2020-02-28T19:18:26Z" level=info msg="Starting file walker for /var/opt/gitlab/git-data/repositories/+gitaly/state" path=/var/opt/gitlab/git-data/repositories/+gitaly/state
+{"address":"/var/opt/gitlab/gitaly/gitaly.socket","level":"info","msg":"listening at unix address","time":"2020-02-28T19:18:28Z"}
+{"level":"info","msg":"finished tempdir cleaner walk","storage":"default","time":"2020-02-28T19:18:28Z","time_ms":0}
+{"address":"/var/opt/gitlab/gitaly/internal_sockets/internal.sock","level":"info","msg":"listening at unix address","time":"2020-02-28T19:18:28Z"}
+{"address":"localhost:9236","level":"info","msg":"starting prometheus listener","time":"2020-02-28T19:18:28Z"}
+{"level":"info","msg":"starting RSS monitor","supervisor.name":"gitaly-ruby.1","supervisor.rss_threshold":209715200,"time":"2020-02-28T19:18:28Z"}
+{"level":"info","msg":"starting RSS monitor","supervisor.name":"gitaly-ruby.0","supervisor.rss_threshold":209715200,"time":"2020-02-28T19:18:28Z"}
+{"level":"warning","msg":"spawned","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","366","/var/opt/gitlab/gitaly/internal_sockets/ruby.0"],"supervisor.name":"gitaly-ruby.0","supervisor.pid":396,"time":"2020-02-28T19:18:28Z"}
+{"level":"warning","msg":"spawned","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","366","/var/opt/gitlab/gitaly/internal_sockets/ruby.1"],"supervisor.name":"gitaly-ruby.1","supervisor.pid":397,"time":"2020-02-28T19:18:28Z"}
+{"level":"info","msg":"PID 397 BUNDLE_GEMFILE=/opt/gitlab/embedded/service/gitaly-ruby/Gemfile","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","366","/var/opt/gitlab/gitaly/internal_sockets/ruby.1"],"supervisor.name":"gitaly-ruby.1","time":"2020-02-28T19:18:29Z"}
+{"level":"info","msg":"PID 396 BUNDLE_GEMFILE=/opt/gitlab/embedded/service/gitaly-ruby/Gemfile","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","366","/var/opt/gitlab/gitaly/internal_sockets/ruby.0"],"supervisor.name":"gitaly-ruby.0","time":"2020-02-28T19:18:29Z"}
+{"error":"rpc error: code = DeadlineExceeded desc = context deadline exceeded","level":"warning","msg":"gitaly-ruby worker health check failed","time":"2020-02-28T19:23:49Z","worker.name":"gitaly-ruby.0"}
+{"error":"rpc error: code = DeadlineExceeded desc = context deadline exceeded","level":"warning","msg":"gitaly-ruby worker health check failed","time":"2020-02-28T19:24:10Z","worker.name":"gitaly-ruby.1"}
+{"error":"rpc error: code = DeadlineExceeded desc = context deadline exceeded","level":"warning","msg":"gitaly-ruby worker health check failed","time":"2020-02-28T19:24:38Z","worker.name":"gitaly-ruby.0"}
+{"error":"rpc error: code = DeadlineExceeded desc = context deadline exceeded","level":"warning","msg":"gitaly-ruby worker health check failed","time":"2020-02-28T19:24:47Z","worker.name":"gitaly-ruby.1"}
+{"error":"rpc error: code = DeadlineExceeded desc = context deadline exceeded","level":"warning","msg":"gitaly-ruby worker health check failed","time":"2020-02-28T19:24:59Z","worker.name":"gitaly-ruby.0"}
+{"error":"rpc error: code = DeadlineExceeded desc = context deadline exceeded","level":"warning","msg":"gitaly-ruby worker health check failed","time":"2020-02-28T19:25:12Z","worker.name":"gitaly-ruby.1"}
+{"error":"rpc error: code = DeadlineExceeded desc = context deadline exceeded","level":"warning","msg":"gitaly-ruby worker health check failed","time":"2020-02-28T19:25:28Z","worker.name":"gitaly-ruby.0"}
+{"error":"rpc error: code = DeadlineExceeded desc = context deadline exceeded","level":"warning","msg":"gitaly-ruby worker health check failed","time":"2020-02-28T19:25:37Z","worker.name":"gitaly-ruby.1"}
+{"level":"info","msg":"removed gitaly-ruby worker from balancer due to sustained failing health checks","time":"2020-02-28T19:25:39Z","worker.name":"gitaly-ruby.1","worker.pid":397}
+{"error":"rpc error: code = DeadlineExceeded desc = context deadline exceeded","level":"warning","msg":"gitaly-ruby worker health check failed","time":"2020-02-28T19:25:50Z","worker.name":"gitaly-ruby.0"}
+{"error":"rpc error: code = DeadlineExceeded desc = context deadline exceeded","level":"warning","msg":"gitaly-ruby worker health check failed","time":"2020-02-28T19:25:57Z","worker.name":"gitaly-ruby.1"}
+{"error":"rpc error: code = DeadlineExceeded desc = context deadline exceeded","level":"warning","msg":"gitaly-ruby worker health check failed","time":"2020-02-28T19:26:08Z","worker.name":"gitaly-ruby.0"}
+{"error":"rpc error: code = DeadlineExceeded desc = context deadline exceeded","level":"warning","msg":"gitaly-ruby worker health check failed","time":"2020-02-28T19:26:16Z","worker.name":"gitaly-ruby.1"}
+{"error":"rpc error: code = DeadlineExceeded desc = context deadline exceeded","level":"warning","msg":"gitaly-ruby worker health check failed","time":"2020-02-28T19:26:26Z","worker.name":"gitaly-ruby.0"}
+{"error":"rpc error: code = DeadlineExceeded desc = context deadline exceeded","level":"warning","msg":"gitaly-ruby worker health check failed","time":"2020-02-28T19:26:34Z","worker.name":"gitaly-ruby.1"}
+{"level":"info","msg":"sending SIGTERM","time":"2020-02-28T19:26:40Z","worker.name":"gitaly-ruby.1","worker.pid":397}
+{"error":"rpc error: code = DeadlineExceeded desc = context deadline exceeded","level":"warning","msg":"gitaly-ruby worker health check failed","time":"2020-02-28T19:26:42Z","worker.name":"gitaly-ruby.0"}
+{"level":"info","msg":"I, [2020-02-28T19:18:33.638813 #397]  INFO -- sentry: ** [Raven] Raven 2.9.0 configured not to capture errors: DSN not set","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","366","/var/opt/gitlab/gitaly/internal_sockets/ruby.1"],"supervisor.name":"gitaly-ruby.1","time":"2020-02-28T19:26:44Z"}
+{"level":"info","msg":"GRPC-RUBY: WARN: Using gitaly-proto 1.87.0","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","366","/var/opt/gitlab/gitaly/internal_sockets/ruby.1"],"supervisor.name":"gitaly-ruby.1","time":"2020-02-28T19:26:45Z"}
+{"error":null,"level":"warning","msg":"exited","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","366","/var/opt/gitlab/gitaly/internal_sockets/ruby.1"],"supervisor.name":"gitaly-ruby.1","time":"2020-02-28T19:26:48Z"}
+{"level":"warning","msg":"spawned","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","366","/var/opt/gitlab/gitaly/internal_sockets/ruby.1"],"supervisor.name":"gitaly-ruby.1","supervisor.pid":682,"time":"2020-02-28T19:26:48Z"}
+{"level":"info","msg":"PID 682 BUNDLE_GEMFILE=/opt/gitlab/embedded/service/gitaly-ruby/Gemfile","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","366","/var/opt/gitlab/gitaly/internal_sockets/ruby.1"],"supervisor.name":"gitaly-ruby.1","time":"2020-02-28T19:26:55Z"}
+{"error":"rpc error: code = DeadlineExceeded desc = context deadline exceeded","level":"warning","msg":"gitaly-ruby worker health check failed","time":"2020-02-28T19:28:42Z","worker.name":"gitaly-ruby.0"}

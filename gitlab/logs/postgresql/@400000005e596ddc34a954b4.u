@@ -1,0 +1,26 @@
+2020-02-28_19:29:08.77219 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2020-02-28_19:29:09.67621 LOG:  database system was interrupted; last known up at 2020-02-28 19:18:27 GMT
+2020-02-28_19:29:09.67685 FATAL:  the database system is starting up
+2020-02-28_19:29:10.69272 FATAL:  the database system is starting up
+2020-02-28_19:29:11.11923 LOG:  database system was not properly shut down; automatic recovery in progress
+2020-02-28_19:29:11.13775 LOG:  invalid record length at 0/2168D90: wanted 24, got 0
+2020-02-28_19:29:11.13776 LOG:  redo is not required
+2020-02-28_19:29:11.18880 LOG:  database system is ready to accept connections
+2020-02-28_19:39:08.10617 ERROR:  canceling statement due to statement timeout
+2020-02-28_19:39:08.21556 STATEMENT:  SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2020-02-28_19:39:08.21558 	       pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+2020-02-28_19:39:08.21558 	       c.collname, col_description(a.attrelid, a.attnum) AS comment
+2020-02-28_19:39:08.21558 	  FROM pg_attribute a
+2020-02-28_19:39:08.21558 	  LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2020-02-28_19:39:08.21559 	  LEFT JOIN pg_type t ON a.atttypid = t.oid
+2020-02-28_19:39:08.21559 	  LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+2020-02-28_19:39:08.21559 	 WHERE a.attrelid = '"oauth_applications"'::regclass
+2020-02-28_19:39:08.21560 	   AND a.attnum > 0 AND NOT a.attisdropped
+2020-02-28_19:39:08.21560 	 ORDER BY a.attnum
+2020-02-28_19:39:08.21560 	
+2020-02-28_19:44:22.81727 received TERM from runit, sending INT instead to force quit connections
+2020-02-28_19:44:22.81815 LOG:  received fast shutdown request
+2020-02-28_19:44:22.92280 LOG:  aborting any active transactions
+2020-02-28_19:44:22.92290 LOG:  worker process: logical replication launcher (PID 397) exited with exit code 1
+2020-02-28_19:44:22.92310 LOG:  shutting down
+2020-02-28_19:44:22.99801 LOG:  database system is shut down

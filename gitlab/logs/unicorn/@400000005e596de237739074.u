@@ -1,0 +1,385 @@
+2020-02-28_19:29:08.32930 starting new unicorn master
+2020-02-28_19:29:10.18011 master failed to start, check stderr log for details
+2020-02-28_19:29:11.22465 failed to start a new unicorn master
+2020-02-28_19:29:11.32389 starting new unicorn master
+2020-02-28_19:29:13.18801 master failed to start, check stderr log for details
+2020-02-28_19:29:14.24737 failed to start a new unicorn master
+2020-02-28_19:29:14.39703 starting new unicorn master
+2020-02-28_19:29:16.24369 master failed to start, check stderr log for details
+2020-02-28_19:29:17.29176 failed to start a new unicorn master
+2020-02-28_19:29:17.40503 starting new unicorn master
+2020-02-28_19:29:18.47963 master failed to start, check stderr log for details
+2020-02-28_19:29:19.51681 failed to start a new unicorn master
+2020-02-28_19:29:19.61043 starting new unicorn master
+2020-02-28_19:29:20.72961 master failed to start, check stderr log for details
+2020-02-28_19:29:21.76725 failed to start a new unicorn master
+2020-02-28_19:29:21.89390 starting new unicorn master
+2020-02-28_19:29:22.96413 master failed to start, check stderr log for details
+2020-02-28_19:29:23.99883 failed to start a new unicorn master
+2020-02-28_19:29:24.11127 starting new unicorn master
+2020-02-28_19:29:25.28635 master failed to start, check stderr log for details
+2020-02-28_19:29:26.31521 failed to start a new unicorn master
+2020-02-28_19:29:26.42141 starting new unicorn master
+2020-02-28_19:29:27.30804 master failed to start, check stderr log for details
+2020-02-28_19:29:28.34382 failed to start a new unicorn master
+2020-02-28_19:29:28.36440 starting new unicorn master
+2020-02-28_19:29:29.40612 master failed to start, check stderr log for details
+2020-02-28_19:29:30.46161 failed to start a new unicorn master
+2020-02-28_19:29:30.54538 starting new unicorn master
+2020-02-28_19:29:31.42638 master failed to start, check stderr log for details
+2020-02-28_19:29:32.46946 failed to start a new unicorn master
+2020-02-28_19:29:32.58921 starting new unicorn master
+2020-02-28_19:29:33.56893 master failed to start, check stderr log for details
+2020-02-28_19:29:34.61123 failed to start a new unicorn master
+2020-02-28_19:29:34.79223 starting new unicorn master
+2020-02-28_19:29:35.80541 master failed to start, check stderr log for details
+2020-02-28_19:29:36.83841 failed to start a new unicorn master
+2020-02-28_19:29:36.97206 starting new unicorn master
+2020-02-28_19:29:38.05103 master failed to start, check stderr log for details
+2020-02-28_19:29:39.10177 failed to start a new unicorn master
+2020-02-28_19:29:39.22450 starting new unicorn master
+2020-02-28_19:29:40.37578 master failed to start, check stderr log for details
+2020-02-28_19:29:41.40695 failed to start a new unicorn master
+2020-02-28_19:29:41.45820 starting new unicorn master
+2020-02-28_19:29:42.45182 master failed to start, check stderr log for details
+2020-02-28_19:29:43.46169 failed to start a new unicorn master
+2020-02-28_19:29:43.49968 starting new unicorn master
+2020-02-28_19:29:44.32350 master failed to start, check stderr log for details
+2020-02-28_19:29:45.35983 failed to start a new unicorn master
+2020-02-28_19:29:45.45573 starting new unicorn master
+2020-02-28_19:29:46.51341 master failed to start, check stderr log for details
+2020-02-28_19:29:47.54657 failed to start a new unicorn master
+2020-02-28_19:29:47.67739 starting new unicorn master
+2020-02-28_19:29:48.71528 master failed to start, check stderr log for details
+2020-02-28_19:29:49.78154 failed to start a new unicorn master
+2020-02-28_19:29:50.01251 starting new unicorn master
+2020-02-28_19:29:56.46378 master failed to start, check stderr log for details
+2020-02-28_19:29:58.46396 failed to start a new unicorn master
+2020-02-28_19:29:59.56682 starting new unicorn master
+2020-02-28_19:41:00.42720 master failed to start, check stderr log for details
+2020-02-28_19:41:01.53999 failed to start a new unicorn master
+2020-02-28_19:41:01.61862 starting new unicorn master
+2020-02-28_19:41:04.12524 master failed to start, check stderr log for details
+2020-02-28_19:41:05.15646 failed to start a new unicorn master
+2020-02-28_19:41:05.17896 starting new unicorn master
+2020-02-28_19:41:06.88832 master failed to start, check stderr log for details
+2020-02-28_19:41:07.93325 failed to start a new unicorn master
+2020-02-28_19:41:08.08281 starting new unicorn master
+2020-02-28_19:41:10.61951 master failed to start, check stderr log for details
+2020-02-28_19:41:11.63410 failed to start a new unicorn master
+2020-02-28_19:41:11.66504 starting new unicorn master
+2020-02-28_19:41:12.41561 master failed to start, check stderr log for details
+2020-02-28_19:41:13.47845 failed to start a new unicorn master
+2020-02-28_19:41:13.63026 starting new unicorn master
+2020-02-28_19:41:16.54305 master failed to start, check stderr log for details
+2020-02-28_19:41:17.71691 failed to start a new unicorn master
+2020-02-28_19:41:17.83442 starting new unicorn master
+2020-02-28_19:41:21.76979 master failed to start, check stderr log for details
+2020-02-28_19:41:22.81121 failed to start a new unicorn master
+2020-02-28_19:41:22.88254 starting new unicorn master
+2020-02-28_19:41:23.97763 master failed to start, check stderr log for details
+2020-02-28_19:41:24.98825 failed to start a new unicorn master
+2020-02-28_19:41:25.01306 starting new unicorn master
+2020-02-28_19:41:25.72606 master failed to start, check stderr log for details
+2020-02-28_19:41:26.73699 failed to start a new unicorn master
+2020-02-28_19:41:26.75728 starting new unicorn master
+2020-02-28_19:41:27.46509 master failed to start, check stderr log for details
+2020-02-28_19:41:28.47451 failed to start a new unicorn master
+2020-02-28_19:41:28.49345 starting new unicorn master
+2020-02-28_19:41:29.17564 master failed to start, check stderr log for details
+2020-02-28_19:41:30.18479 failed to start a new unicorn master
+2020-02-28_19:41:30.20504 starting new unicorn master
+2020-02-28_19:41:30.87303 master failed to start, check stderr log for details
+2020-02-28_19:41:31.88218 failed to start a new unicorn master
+2020-02-28_19:41:31.90244 starting new unicorn master
+2020-02-28_19:41:32.56863 master failed to start, check stderr log for details
+2020-02-28_19:41:33.57952 failed to start a new unicorn master
+2020-02-28_19:41:33.59957 starting new unicorn master
+2020-02-28_19:41:34.29125 master failed to start, check stderr log for details
+2020-02-28_19:41:35.30090 failed to start a new unicorn master
+2020-02-28_19:41:35.32247 starting new unicorn master
+2020-02-28_19:41:36.01167 master failed to start, check stderr log for details
+2020-02-28_19:41:37.02112 failed to start a new unicorn master
+2020-02-28_19:41:37.04085 starting new unicorn master
+2020-02-28_19:41:37.71505 master failed to start, check stderr log for details
+2020-02-28_19:41:38.72566 failed to start a new unicorn master
+2020-02-28_19:41:38.74509 starting new unicorn master
+2020-02-28_19:41:39.41468 master failed to start, check stderr log for details
+2020-02-28_19:41:40.42374 failed to start a new unicorn master
+2020-02-28_19:41:40.44342 starting new unicorn master
+2020-02-28_19:41:41.12244 master failed to start, check stderr log for details
+2020-02-28_19:41:42.13254 failed to start a new unicorn master
+2020-02-28_19:41:42.15286 starting new unicorn master
+2020-02-28_19:41:42.83799 master failed to start, check stderr log for details
+2020-02-28_19:41:43.84717 failed to start a new unicorn master
+2020-02-28_19:41:43.86690 starting new unicorn master
+2020-02-28_19:41:44.59458 master failed to start, check stderr log for details
+2020-02-28_19:41:45.60279 failed to start a new unicorn master
+2020-02-28_19:41:45.62117 starting new unicorn master
+2020-02-28_19:41:46.31239 master failed to start, check stderr log for details
+2020-02-28_19:41:47.32205 failed to start a new unicorn master
+2020-02-28_19:41:47.34352 starting new unicorn master
+2020-02-28_19:41:48.03930 master failed to start, check stderr log for details
+2020-02-28_19:41:49.04790 failed to start a new unicorn master
+2020-02-28_19:41:49.06849 starting new unicorn master
+2020-02-28_19:41:49.74213 master failed to start, check stderr log for details
+2020-02-28_19:41:50.75116 failed to start a new unicorn master
+2020-02-28_19:41:50.77030 starting new unicorn master
+2020-02-28_19:41:51.46191 master failed to start, check stderr log for details
+2020-02-28_19:41:52.47100 failed to start a new unicorn master
+2020-02-28_19:41:52.49514 starting new unicorn master
+2020-02-28_19:41:53.16668 master failed to start, check stderr log for details
+2020-02-28_19:41:54.17610 failed to start a new unicorn master
+2020-02-28_19:41:54.19615 starting new unicorn master
+2020-02-28_19:41:54.88730 master failed to start, check stderr log for details
+2020-02-28_19:41:55.89692 failed to start a new unicorn master
+2020-02-28_19:41:55.91600 starting new unicorn master
+2020-02-28_19:41:56.62077 master failed to start, check stderr log for details
+2020-02-28_19:41:57.63269 failed to start a new unicorn master
+2020-02-28_19:41:57.65634 starting new unicorn master
+2020-02-28_19:41:58.37258 master failed to start, check stderr log for details
+2020-02-28_19:41:59.38239 failed to start a new unicorn master
+2020-02-28_19:41:59.41041 starting new unicorn master
+2020-02-28_19:42:00.10762 master failed to start, check stderr log for details
+2020-02-28_19:42:01.11706 failed to start a new unicorn master
+2020-02-28_19:42:01.13881 starting new unicorn master
+2020-02-28_19:42:01.83075 master failed to start, check stderr log for details
+2020-02-28_19:42:02.84027 failed to start a new unicorn master
+2020-02-28_19:42:02.86224 starting new unicorn master
+2020-02-28_19:42:03.61785 master failed to start, check stderr log for details
+2020-02-28_19:42:04.62668 failed to start a new unicorn master
+2020-02-28_19:42:04.64691 starting new unicorn master
+2020-02-28_19:42:05.30403 master failed to start, check stderr log for details
+2020-02-28_19:42:06.31300 failed to start a new unicorn master
+2020-02-28_19:42:06.33383 starting new unicorn master
+2020-02-28_19:42:06.99348 master failed to start, check stderr log for details
+2020-02-28_19:42:08.00360 failed to start a new unicorn master
+2020-02-28_19:42:08.02298 starting new unicorn master
+2020-02-28_19:42:08.72020 master failed to start, check stderr log for details
+2020-02-28_19:42:09.72974 failed to start a new unicorn master
+2020-02-28_19:42:09.75150 starting new unicorn master
+2020-02-28_19:42:10.41787 master failed to start, check stderr log for details
+2020-02-28_19:42:11.42979 failed to start a new unicorn master
+2020-02-28_19:42:11.44944 starting new unicorn master
+2020-02-28_19:42:12.11341 master failed to start, check stderr log for details
+2020-02-28_19:42:13.12404 failed to start a new unicorn master
+2020-02-28_19:42:13.14487 starting new unicorn master
+2020-02-28_19:42:13.81185 master failed to start, check stderr log for details
+2020-02-28_19:42:14.82261 failed to start a new unicorn master
+2020-02-28_19:42:14.84328 starting new unicorn master
+2020-02-28_19:42:15.55443 master failed to start, check stderr log for details
+2020-02-28_19:42:16.56529 failed to start a new unicorn master
+2020-02-28_19:42:16.58703 starting new unicorn master
+2020-02-28_19:42:17.26934 master failed to start, check stderr log for details
+2020-02-28_19:42:18.27841 failed to start a new unicorn master
+2020-02-28_19:42:18.30605 starting new unicorn master
+2020-02-28_19:42:18.99952 master failed to start, check stderr log for details
+2020-02-28_19:42:20.00859 failed to start a new unicorn master
+2020-02-28_19:42:20.03680 starting new unicorn master
+2020-02-28_19:42:20.73489 master failed to start, check stderr log for details
+2020-02-28_19:42:21.74411 failed to start a new unicorn master
+2020-02-28_19:42:21.76588 starting new unicorn master
+2020-02-28_19:42:22.48890 master failed to start, check stderr log for details
+2020-02-28_19:42:23.49878 failed to start a new unicorn master
+2020-02-28_19:42:23.52061 starting new unicorn master
+2020-02-28_19:42:24.25119 master failed to start, check stderr log for details
+2020-02-28_19:42:25.26052 failed to start a new unicorn master
+2020-02-28_19:42:25.28291 starting new unicorn master
+2020-02-28_19:42:26.00416 master failed to start, check stderr log for details
+2020-02-28_19:42:27.01532 failed to start a new unicorn master
+2020-02-28_19:42:27.03719 starting new unicorn master
+2020-02-28_19:42:27.81541 master failed to start, check stderr log for details
+2020-02-28_19:42:28.82459 failed to start a new unicorn master
+2020-02-28_19:42:28.84609 starting new unicorn master
+2020-02-28_19:42:29.56719 master failed to start, check stderr log for details
+2020-02-28_19:42:30.57854 failed to start a new unicorn master
+2020-02-28_19:42:30.61287 starting new unicorn master
+2020-02-28_19:42:31.32270 master failed to start, check stderr log for details
+2020-02-28_19:42:32.33262 failed to start a new unicorn master
+2020-02-28_19:42:32.35305 starting new unicorn master
+2020-02-28_19:42:33.04355 master failed to start, check stderr log for details
+2020-02-28_19:42:34.05338 failed to start a new unicorn master
+2020-02-28_19:42:34.07718 starting new unicorn master
+2020-02-28_19:42:34.76496 master failed to start, check stderr log for details
+2020-02-28_19:42:35.77446 failed to start a new unicorn master
+2020-02-28_19:42:35.79420 starting new unicorn master
+2020-02-28_19:42:36.49562 master failed to start, check stderr log for details
+2020-02-28_19:42:37.50562 failed to start a new unicorn master
+2020-02-28_19:42:37.52528 starting new unicorn master
+2020-02-28_19:42:38.20709 master failed to start, check stderr log for details
+2020-02-28_19:42:39.21601 failed to start a new unicorn master
+2020-02-28_19:42:39.23629 starting new unicorn master
+2020-02-28_19:42:39.96096 master failed to start, check stderr log for details
+2020-02-28_19:42:40.97051 failed to start a new unicorn master
+2020-02-28_19:42:40.99069 starting new unicorn master
+2020-02-28_19:42:41.68288 master failed to start, check stderr log for details
+2020-02-28_19:42:42.69533 failed to start a new unicorn master
+2020-02-28_19:42:42.71679 starting new unicorn master
+2020-02-28_19:42:43.45217 master failed to start, check stderr log for details
+2020-02-28_19:42:44.46154 failed to start a new unicorn master
+2020-02-28_19:42:44.48321 starting new unicorn master
+2020-02-28_19:42:45.20806 master failed to start, check stderr log for details
+2020-02-28_19:42:46.21684 failed to start a new unicorn master
+2020-02-28_19:42:46.23664 starting new unicorn master
+2020-02-28_19:42:46.93494 master failed to start, check stderr log for details
+2020-02-28_19:42:47.94340 failed to start a new unicorn master
+2020-02-28_19:42:47.96387 starting new unicorn master
+2020-02-28_19:42:48.68428 master failed to start, check stderr log for details
+2020-02-28_19:42:49.69345 failed to start a new unicorn master
+2020-02-28_19:42:49.71341 starting new unicorn master
+2020-02-28_19:42:50.41125 master failed to start, check stderr log for details
+2020-02-28_19:42:51.42111 failed to start a new unicorn master
+2020-02-28_19:42:51.44227 starting new unicorn master
+2020-02-28_19:42:52.13778 master failed to start, check stderr log for details
+2020-02-28_19:42:53.14753 failed to start a new unicorn master
+2020-02-28_19:42:53.16839 starting new unicorn master
+2020-02-28_19:42:53.86817 master failed to start, check stderr log for details
+2020-02-28_19:42:54.87715 failed to start a new unicorn master
+2020-02-28_19:42:54.89767 starting new unicorn master
+2020-02-28_19:42:55.60353 master failed to start, check stderr log for details
+2020-02-28_19:42:56.61457 failed to start a new unicorn master
+2020-02-28_19:42:56.63477 starting new unicorn master
+2020-02-28_19:42:57.34779 master failed to start, check stderr log for details
+2020-02-28_19:42:58.35797 failed to start a new unicorn master
+2020-02-28_19:42:58.38058 starting new unicorn master
+2020-02-28_19:42:59.10854 master failed to start, check stderr log for details
+2020-02-28_19:43:00.11804 failed to start a new unicorn master
+2020-02-28_19:43:00.14283 starting new unicorn master
+2020-02-28_19:43:00.86135 master failed to start, check stderr log for details
+2020-02-28_19:43:01.87042 failed to start a new unicorn master
+2020-02-28_19:43:01.89079 starting new unicorn master
+2020-02-28_19:43:02.62990 master failed to start, check stderr log for details
+2020-02-28_19:43:03.63813 failed to start a new unicorn master
+2020-02-28_19:43:03.66161 starting new unicorn master
+2020-02-28_19:43:04.37821 master failed to start, check stderr log for details
+2020-02-28_19:43:05.38794 failed to start a new unicorn master
+2020-02-28_19:43:05.40982 starting new unicorn master
+2020-02-28_19:43:06.12094 master failed to start, check stderr log for details
+2020-02-28_19:43:07.12994 failed to start a new unicorn master
+2020-02-28_19:43:07.15002 starting new unicorn master
+2020-02-28_19:43:07.88956 master failed to start, check stderr log for details
+2020-02-28_19:43:08.89928 failed to start a new unicorn master
+2020-02-28_19:43:08.91952 starting new unicorn master
+2020-02-28_19:43:09.60863 master failed to start, check stderr log for details
+2020-02-28_19:43:10.61870 failed to start a new unicorn master
+2020-02-28_19:43:10.63853 starting new unicorn master
+2020-02-28_19:43:11.33873 master failed to start, check stderr log for details
+2020-02-28_19:43:12.35188 failed to start a new unicorn master
+2020-02-28_19:43:12.37567 starting new unicorn master
+2020-02-28_19:43:13.09449 master failed to start, check stderr log for details
+2020-02-28_19:43:14.10378 failed to start a new unicorn master
+2020-02-28_19:43:14.12442 starting new unicorn master
+2020-02-28_19:43:14.82176 master failed to start, check stderr log for details
+2020-02-28_19:43:15.83232 failed to start a new unicorn master
+2020-02-28_19:43:15.85428 starting new unicorn master
+2020-02-28_19:43:16.57208 master failed to start, check stderr log for details
+2020-02-28_19:43:17.58061 failed to start a new unicorn master
+2020-02-28_19:43:17.60078 starting new unicorn master
+2020-02-28_19:43:18.28837 master failed to start, check stderr log for details
+2020-02-28_19:43:19.29811 failed to start a new unicorn master
+2020-02-28_19:43:19.32423 starting new unicorn master
+2020-02-28_19:43:20.01314 master failed to start, check stderr log for details
+2020-02-28_19:43:21.03132 failed to start a new unicorn master
+2020-02-28_19:43:21.05145 starting new unicorn master
+2020-02-28_19:43:21.73091 master failed to start, check stderr log for details
+2020-02-28_19:43:22.74034 failed to start a new unicorn master
+2020-02-28_19:43:22.76155 starting new unicorn master
+2020-02-28_19:43:23.45948 master failed to start, check stderr log for details
+2020-02-28_19:43:24.46822 failed to start a new unicorn master
+2020-02-28_19:43:24.48844 starting new unicorn master
+2020-02-28_19:43:25.19956 master failed to start, check stderr log for details
+2020-02-28_19:43:26.21131 failed to start a new unicorn master
+2020-02-28_19:43:26.23122 starting new unicorn master
+2020-02-28_19:43:26.94817 master failed to start, check stderr log for details
+2020-02-28_19:43:27.95731 failed to start a new unicorn master
+2020-02-28_19:43:27.97628 starting new unicorn master
+2020-02-28_19:43:28.70068 master failed to start, check stderr log for details
+2020-02-28_19:43:29.71037 failed to start a new unicorn master
+2020-02-28_19:43:29.73177 starting new unicorn master
+2020-02-28_19:43:30.43936 master failed to start, check stderr log for details
+2020-02-28_19:43:31.44943 failed to start a new unicorn master
+2020-02-28_19:43:31.47109 starting new unicorn master
+2020-02-28_19:43:32.16317 master failed to start, check stderr log for details
+2020-02-28_19:43:33.17243 failed to start a new unicorn master
+2020-02-28_19:43:33.19174 starting new unicorn master
+2020-02-28_19:43:33.90625 master failed to start, check stderr log for details
+2020-02-28_19:43:34.91492 failed to start a new unicorn master
+2020-02-28_19:43:34.93427 starting new unicorn master
+2020-02-28_19:43:35.63887 master failed to start, check stderr log for details
+2020-02-28_19:43:36.64868 failed to start a new unicorn master
+2020-02-28_19:43:36.66929 starting new unicorn master
+2020-02-28_19:43:37.35182 master failed to start, check stderr log for details
+2020-02-28_19:43:38.36142 failed to start a new unicorn master
+2020-02-28_19:43:38.38176 starting new unicorn master
+2020-02-28_19:43:39.05905 master failed to start, check stderr log for details
+2020-02-28_19:43:40.06865 failed to start a new unicorn master
+2020-02-28_19:43:40.08891 starting new unicorn master
+2020-02-28_19:43:40.77527 master failed to start, check stderr log for details
+2020-02-28_19:43:41.78361 failed to start a new unicorn master
+2020-02-28_19:43:41.80332 starting new unicorn master
+2020-02-28_19:43:42.48703 master failed to start, check stderr log for details
+2020-02-28_19:43:43.49537 failed to start a new unicorn master
+2020-02-28_19:43:43.51514 starting new unicorn master
+2020-02-28_19:43:44.19417 master failed to start, check stderr log for details
+2020-02-28_19:43:45.20434 failed to start a new unicorn master
+2020-02-28_19:43:45.22757 starting new unicorn master
+2020-02-28_19:43:45.91768 master failed to start, check stderr log for details
+2020-02-28_19:43:46.92710 failed to start a new unicorn master
+2020-02-28_19:43:46.94870 starting new unicorn master
+2020-02-28_19:43:47.62552 master failed to start, check stderr log for details
+2020-02-28_19:43:48.63489 failed to start a new unicorn master
+2020-02-28_19:43:48.65766 starting new unicorn master
+2020-02-28_19:43:49.34407 master failed to start, check stderr log for details
+2020-02-28_19:43:50.35367 failed to start a new unicorn master
+2020-02-28_19:43:50.37478 starting new unicorn master
+2020-02-28_19:43:51.09188 master failed to start, check stderr log for details
+2020-02-28_19:43:52.10243 failed to start a new unicorn master
+2020-02-28_19:43:52.12510 starting new unicorn master
+2020-02-28_19:43:52.81535 master failed to start, check stderr log for details
+2020-02-28_19:43:53.82384 failed to start a new unicorn master
+2020-02-28_19:43:53.84548 starting new unicorn master
+2020-02-28_19:43:54.56362 master failed to start, check stderr log for details
+2020-02-28_19:43:55.57286 failed to start a new unicorn master
+2020-02-28_19:43:55.59446 starting new unicorn master
+2020-02-28_19:43:56.30737 master failed to start, check stderr log for details
+2020-02-28_19:43:57.31828 failed to start a new unicorn master
+2020-02-28_19:43:57.34177 starting new unicorn master
+2020-02-28_19:43:58.05070 master failed to start, check stderr log for details
+2020-02-28_19:43:59.06448 failed to start a new unicorn master
+2020-02-28_19:43:59.09593 starting new unicorn master
+2020-02-28_19:43:59.84494 master failed to start, check stderr log for details
+2020-02-28_19:44:00.85421 failed to start a new unicorn master
+2020-02-28_19:44:00.87679 starting new unicorn master
+2020-02-28_19:44:01.60019 master failed to start, check stderr log for details
+2020-02-28_19:44:02.60927 failed to start a new unicorn master
+2020-02-28_19:44:02.63137 starting new unicorn master
+2020-02-28_19:44:03.39709 master failed to start, check stderr log for details
+2020-02-28_19:44:04.40600 failed to start a new unicorn master
+2020-02-28_19:44:04.42676 starting new unicorn master
+2020-02-28_19:44:05.15323 master failed to start, check stderr log for details
+2020-02-28_19:44:06.16314 failed to start a new unicorn master
+2020-02-28_19:44:06.18406 starting new unicorn master
+2020-02-28_19:44:06.88505 master failed to start, check stderr log for details
+2020-02-28_19:44:07.89475 failed to start a new unicorn master
+2020-02-28_19:44:07.91982 starting new unicorn master
+2020-02-28_19:44:08.61607 master failed to start, check stderr log for details
+2020-02-28_19:44:09.62539 failed to start a new unicorn master
+2020-02-28_19:44:09.64662 starting new unicorn master
+2020-02-28_19:44:10.35420 master failed to start, check stderr log for details
+2020-02-28_19:44:11.36362 failed to start a new unicorn master
+2020-02-28_19:44:11.38416 starting new unicorn master
+2020-02-28_19:44:12.08773 master failed to start, check stderr log for details
+2020-02-28_19:44:13.09717 failed to start a new unicorn master
+2020-02-28_19:44:13.11873 starting new unicorn master
+2020-02-28_19:44:13.81801 master failed to start, check stderr log for details
+2020-02-28_19:44:14.82644 failed to start a new unicorn master
+2020-02-28_19:44:14.84684 starting new unicorn master
+2020-02-28_19:44:15.57606 master failed to start, check stderr log for details
+2020-02-28_19:44:16.59231 failed to start a new unicorn master
+2020-02-28_19:44:16.64869 starting new unicorn master
+2020-02-28_19:44:17.45562 master failed to start, check stderr log for details
+2020-02-28_19:44:18.46522 failed to start a new unicorn master
+2020-02-28_19:44:18.48613 starting new unicorn master
+2020-02-28_19:44:19.22027 master failed to start, check stderr log for details
+2020-02-28_19:44:20.22411 failed to start a new unicorn master
+2020-02-28_19:44:20.23992 starting new unicorn master

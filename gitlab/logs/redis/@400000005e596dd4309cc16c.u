@@ -1,0 +1,27 @@
+2020-02-28_19:29:08.10748 286:C 28 Feb 2020 19:29:08.106 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2020-02-28_19:29:08.10754 286:C 28 Feb 2020 19:29:08.106 # Redis version=5.0.7, bits=64, commit=4891612b, modified=0, pid=286, just started
+2020-02-28_19:29:08.10754 286:C 28 Feb 2020 19:29:08.106 # Configuration loaded
+2020-02-28_19:29:08.16874 286:M 28 Feb 2020 19:29:08.168 * Running mode=standalone, port=0.
+2020-02-28_19:29:08.16877 286:M 28 Feb 2020 19:29:08.168 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2020-02-28_19:29:08.16877 286:M 28 Feb 2020 19:29:08.168 # Server initialized
+2020-02-28_19:29:08.16878 286:M 28 Feb 2020 19:29:08.168 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2020-02-28_19:29:08.16881 286:M 28 Feb 2020 19:29:08.168 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2020-02-28_19:29:08.21984 286:M 28 Feb 2020 19:29:08.217 * DB loaded from disk: 0.048 seconds
+2020-02-28_19:29:08.21985 286:M 28 Feb 2020 19:29:08.217 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2020-02-28_19:34:57.51182 286:M 28 Feb 2020 19:34:53.917 * 10 changes in 300 seconds. Saving...
+2020-02-28_19:36:49.30862 286:M 28 Feb 2020 19:35:35.808 * Background saving started by pid 989
+2020-02-28_19:36:53.30896 989:C 28 Feb 2020 19:36:52.668 * DB saved on disk
+2020-02-28_19:36:53.41825 989:C 28 Feb 2020 19:36:52.965 * RDB: 6 MB of memory used by copy-on-write
+2020-02-28_19:36:53.60600 286:M 28 Feb 2020 19:36:53.605 * Background saving terminated with success
+2020-02-28_19:41:54.04338 286:M 28 Feb 2020 19:41:54.042 * 10 changes in 300 seconds. Saving...
+2020-02-28_19:41:54.04425 286:M 28 Feb 2020 19:41:54.044 * Background saving started by pid 1763
+2020-02-28_19:41:54.14769 1763:C 28 Feb 2020 19:41:54.147 * DB saved on disk
+2020-02-28_19:41:54.14819 1763:C 28 Feb 2020 19:41:54.148 * RDB: 6 MB of memory used by copy-on-write
+2020-02-28_19:41:54.24457 286:M 28 Feb 2020 19:41:54.244 * Background saving terminated with success
+2020-02-28_19:44:23.66262 286:signal-handler (1582919063) Received SIGTERM scheduling shutdown...
+2020-02-28_19:44:23.67573 286:M 28 Feb 2020 19:44:23.674 # User requested shutdown...
+2020-02-28_19:44:23.67574 286:M 28 Feb 2020 19:44:23.674 * Saving the final RDB snapshot before exiting.
+2020-02-28_19:44:23.70413 286:M 28 Feb 2020 19:44:23.703 * DB saved on disk
+2020-02-28_19:44:23.70416 286:M 28 Feb 2020 19:44:23.703 * Removing the pid file.
+2020-02-28_19:44:23.70416 286:M 28 Feb 2020 19:44:23.704 * Removing the unix socket file.
+2020-02-28_19:44:23.70416 286:M 28 Feb 2020 19:44:23.704 # Redis is now ready to exit, bye bye...

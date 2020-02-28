@@ -153,3 +153,5 @@ ls
 pwd
 ls
 exit
+ping gitlab_host
+exit

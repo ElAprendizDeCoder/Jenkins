@@ -1,0 +1,19 @@
+# Logfile created on 2020-02-28 18:15:19 +0000 by logger.rb/66358
+2020-02-28T18:15:19.864Z: User "Administrator" (admin@example.com) was created
+2020-02-28T18:16:06.238Z: DB connection pool size: 27 (increased from 1 to match thread count)
+2020-02-28T19:08:10.804Z: DB connection pool size: 27 (increased from 1 to match thread count)
+2020-02-28T19:18:51.726Z: DB connection pool size: 27 (increased from 1 to match thread count)
+2020-02-28T19:29:31.467Z: DB connection pool size: 27 (increased from 1 to match thread count)
+2020-02-28T19:45:50.515Z: DB connection pool size: 27 (increased from 1 to match thread count)
+2020-02-28T19:53:47.941Z: DB connection pool size: 27 (increased from 1 to match thread count)
+2020-02-28T19:57:03.584Z: Successful Login: username=root ip=200.52.82.218 method=standard admin=true
+2020-02-28T19:58:00.884Z: Group "jenkins" was created
+2020-02-28T19:58:10.246Z: jenkins created a new project "jenkins / maven"
+2020-02-28T20:01:57.247Z: User Logout: username=root ip=200.52.82.218
+2020-02-28T20:02:02.276Z: Successful Login: username=root ip=200.52.82.218 method=standard admin=true
+2020-02-28T20:05:23.018Z: User "tool1" (tool1@user.mail) was created
+2020-02-28T20:06:55.302Z: Failed Login: username=too1 ip=200.52.82.218
+2020-02-28T20:07:41.874Z: Failed Login: username=too1 ip=200.52.82.218
+2020-02-28T20:07:45.632Z: Failed Login: username=too1 ip=200.52.82.218
+2020-02-28T20:07:51.210Z: Failed Login: username=too1 ip=200.52.82.218
+2020-02-28T20:08:32.195Z: Successful Login: username=tool1 ip=200.52.82.218 method=standard admin=false

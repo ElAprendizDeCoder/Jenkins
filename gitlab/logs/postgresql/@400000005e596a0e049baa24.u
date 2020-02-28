@@ -1,0 +1,38 @@
+2020-02-28_19:18:25.54821 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2020-02-28_19:18:26.32110 LOG:  database system was interrupted; last known up at 2020-02-28 19:07:43 GMT
+2020-02-28_19:18:26.32161 FATAL:  the database system is starting up
+2020-02-28_19:18:27.33575 FATAL:  the database system is starting up
+2020-02-28_19:18:27.86761 LOG:  database system was not properly shut down; automatic recovery in progress
+2020-02-28_19:18:27.91659 LOG:  invalid record length at 0/2168D20: wanted 24, got 0
+2020-02-28_19:18:27.91660 LOG:  redo is not required
+2020-02-28_19:18:27.96706 LOG:  database system is ready to accept connections
+2020-02-28_19:22:36.30465 ERROR:  canceling statement due to statement timeout
+2020-02-28_19:22:36.41423 STATEMENT:  SELECT
+2020-02-28_19:22:36.41425 	  projects.namespace_id,
+2020-02-28_19:22:36.41425 	  ci_builds.status,
+2020-02-28_19:22:36.41425 	  projects.shared_runners_enabled,
+2020-02-28_19:22:36.41425 	  (COALESCE(namespaces.shared_runners_minutes_limit, application_settings.shared_runners_minutes, 0) = 0 OR
+2020-02-28_19:22:36.41426 	     COALESCE(namespace_statistics.shared_runners_seconds, 0) < COALESCE(namespaces.shared_runners_minutes_limit, application_settings.shared_runners_minutes, 0) * 60) as has_minutes,
+2020-02-28_19:22:36.41426 	  COUNT(*) AS count
+2020-02-28_19:22:36.41426 	FROM ci_builds
+2020-02-28_19:22:36.41426 	JOIN projects
+2020-02-28_19:22:36.41427 	  ON projects.id = ci_builds.project_id
+2020-02-28_19:22:36.41427 	JOIN namespaces
+2020-02-28_19:22:36.41427 	  ON namespaces.id = projects.namespace_id
+2020-02-28_19:22:36.41428 	LEFT JOIN namespace_statistics
+2020-02-28_19:22:36.41428 	  ON namespace_statistics.namespace_id = namespaces.id
+2020-02-28_19:22:36.41428 	JOIN application_settings
+2020-02-28_19:22:36.41428 	  ON application_settings.id = 1
+2020-02-28_19:22:36.41428 	WHERE ci_builds.type = 'Ci::Build'
+2020-02-28_19:22:36.41429 	  AND ci_builds.status = 'created'
+2020-02-28_19:22:36.41429 	  -- The created_at filter has been introduced for performance reasons only
+2020-02-28_19:22:36.41429 	  AND ci_builds.created_at > NOW() - INTERVAL '7 days'
+2020-02-28_19:22:36.41429 	  AND projects.pending_delete = 'f'
+2020-02-28_19:22:36.41430 	GROUP BY
+2020-02-28_19:22:36.41430 	  projects.namespace_id,
+2020-02-28_19:22:36.41432 	  ci_builds.status,
+2020-02-28_19:22:36.41432 	  projects.shared_runners_enabled,
+2020-02-28_19:22:36.41432 	  namespaces.shared_runners_minutes_limit,
+2020-02-28_19:22:36.41432 	  namespace_statistics.shared_runners_seconds,
+2020-02-28_19:22:36.41432 	  application_settings.shared_runners_minutes
+2020-02-28_19:22:36.41433 	

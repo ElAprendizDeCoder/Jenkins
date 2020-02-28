@@ -3,8 +3,16 @@
   <version>1</version>
   <idToDirectoryNameMap class="concurrent-hash-map">
     <entry>
+      <string>reader</string>
+      <string>reader_4730138008876039995</string>
+    </entry>
+    <entry>
       <string>davter</string>
       <string>Davter_336250164962265876</string>
+    </entry>
+    <entry>
+      <string>execute</string>
+      <string>execute_2938580361977328365</string>
     </entry>
   </idToDirectoryNameMap>
 </hudson.model.UserIdMapper>
