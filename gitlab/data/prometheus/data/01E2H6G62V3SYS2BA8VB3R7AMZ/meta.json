@@ -1,0 +1,17 @@
+{
+	"ulid": "01E2H6G62V3SYS2BA8VB3R7AMZ",
+	"minTime": 1583258400000,
+	"maxTime": 1583265600000,
+	"stats": {
+		"numSamples": 6560425,
+		"numSeries": 15742,
+		"numChunks": 54698
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01E2H6G62V3SYS2BA8VB3R7AMZ"
+		]
+	},
+	"version": 1
+}

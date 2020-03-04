@@ -1,19 +1,3 @@
-# Logfile created on 2020-02-28 18:15:19 +0000 by logger.rb/66358
-{"severity":"INFO","time":"2020-02-28T18:15:19.864Z","correlation_id":null,"message":"User \"Administrator\" (admin@example.com) was created"}
-{"severity":"DEBUG","time":"2020-02-28T18:16:06.238Z","correlation_id":null,"message":"DB connection pool size: 27 (increased from 1 to match thread count)"}
-{"severity":"DEBUG","time":"2020-02-28T19:08:10.805Z","correlation_id":null,"message":"DB connection pool size: 27 (increased from 1 to match thread count)"}
-{"severity":"DEBUG","time":"2020-02-28T19:18:51.727Z","correlation_id":null,"message":"DB connection pool size: 27 (increased from 1 to match thread count)"}
-{"severity":"DEBUG","time":"2020-02-28T19:29:31.467Z","correlation_id":null,"message":"DB connection pool size: 27 (increased from 1 to match thread count)"}
-{"severity":"DEBUG","time":"2020-02-28T19:45:50.515Z","correlation_id":null,"message":"DB connection pool size: 27 (increased from 1 to match thread count)"}
-{"severity":"DEBUG","time":"2020-02-28T19:53:47.941Z","correlation_id":null,"message":"DB connection pool size: 27 (increased from 1 to match thread count)"}
-{"severity":"INFO","time":"2020-02-28T19:57:03.584Z","correlation_id":"kLne1k0ZvD","message":"Successful Login: username=root ip=200.52.82.218 method=standard admin=true"}
-{"severity":"INFO","time":"2020-02-28T19:58:00.885Z","correlation_id":"ic297q9Cg5a","message":"Group \"jenkins\" was created"}
-{"severity":"INFO","time":"2020-02-28T19:58:10.246Z","correlation_id":"sDiIWGYHWN6","message":"jenkins created a new project \"jenkins / maven\""}
-{"severity":"INFO","time":"2020-02-28T20:01:57.248Z","correlation_id":"91nbWEFXOB4","message":"User Logout: username=root ip=200.52.82.218"}
-{"severity":"INFO","time":"2020-02-28T20:02:02.276Z","correlation_id":"ODEHF666GS8","message":"Successful Login: username=root ip=200.52.82.218 method=standard admin=true"}
-{"severity":"INFO","time":"2020-02-28T20:05:23.018Z","correlation_id":"sDHSciEpIE3","message":"User \"tool1\" (tool1@user.mail) was created"}
-{"severity":"INFO","time":"2020-02-28T20:06:55.303Z","correlation_id":"37fe1744098397703abd157c564030a8","message":"Failed Login: username=too1 ip=200.52.82.218"}
-{"severity":"INFO","time":"2020-02-28T20:07:41.874Z","correlation_id":"7d420ac26841cb68474a7e64f7424038","message":"Failed Login: username=too1 ip=200.52.82.218"}
-{"severity":"INFO","time":"2020-02-28T20:07:45.632Z","correlation_id":"79f31a16a00dc34df8ed80acdc158bc8","message":"Failed Login: username=too1 ip=200.52.82.218"}
-{"severity":"INFO","time":"2020-02-28T20:07:51.210Z","correlation_id":"ec14b08acb237bbd5d5283b2a7aeb645","message":"Failed Login: username=too1 ip=200.52.82.218"}
-{"severity":"INFO","time":"2020-02-28T20:08:32.195Z","correlation_id":"T7EUtxaPCr8","message":"Successful Login: username=tool1 ip=200.52.82.218 method=standard admin=false"}
+{"severity":"INFO","time":"2020-03-03T17:13:29.808Z","correlation_id":"qpvCCb7FhF2","message":"Successful Login: username=root ip=200.52.82.218 method=standard admin=true"}
+{"severity":"INFO","time":"2020-03-03T20:21:58.812Z","correlation_id":"05UPc5F9588","message":"jenkins created a new project \"jenkins / gitlab-demo\""}
+{"severity":"DEBUG","time":"2020-03-03T21:58:27.101Z","correlation_id":null,"message":"DB connection pool size: 27 (increased from 1 to match thread count)"}

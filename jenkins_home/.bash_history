@@ -155,3 +155,21 @@ ls
 exit
 ping gitlab_host
 exit
+cd /opt/
+ls
+ls
+cd /var/opt/
+ls
+ls
+exit
+ls
+cd /usr/
+ls
+cd s
+cd src/
+ls
+ls
+cd ..
+ls
+cd ..
+exit

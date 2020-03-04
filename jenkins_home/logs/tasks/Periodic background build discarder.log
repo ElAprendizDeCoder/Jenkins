@@ -1,8 +1,12 @@
-Started at Fri Feb 28 20:11:40 UTC 2020
+Started at Tue Mar 03 18:21:09 UTC 2020
 Processing ansible-job
 Offering ansible-job to Project Build Discarder
 Processing AWS-Job
 Offering AWS-Job to Project Build Discarder
+Processing dsl-job
+Offering dsl-job to Project Build Discarder
+Processing job_dsl_example
+Offering job_dsl_example to Project Build Discarder
 Processing maven-job
 Offering maven-job to Project Build Discarder
 Processing playbook-users
@@ -13,4 +17,44 @@ Processing Test2Job
 Offering Test2Job to Project Build Discarder
 Processing TestJob
 Offering TestJob to Project Build Discarder
-Finished at Fri Feb 28 20:11:40 UTC 2020. 7ms
+Finished at Tue Mar 03 18:21:09 UTC 2020. 64ms
+Started at Tue Mar 03 19:21:09 UTC 2020
+Processing ansible-job
+Offering ansible-job to Project Build Discarder
+Processing AWS-Job
+Offering AWS-Job to Project Build Discarder
+Processing dsl-job
+Offering dsl-job to Project Build Discarder
+Processing job_dsl_example
+Offering job_dsl_example to Project Build Discarder
+Processing maven-job
+Offering maven-job to Project Build Discarder
+Processing playbook-users
+Offering playbook-users to Project Build Discarder
+Processing remote-Task
+Offering remote-Task to Project Build Discarder
+Processing Test2Job
+Offering Test2Job to Project Build Discarder
+Processing TestJob
+Offering TestJob to Project Build Discarder
+Finished at Tue Mar 03 19:21:09 UTC 2020. 7ms
+Started at Tue Mar 03 20:21:09 UTC 2020
+Processing ansible-job
+Offering ansible-job to Project Build Discarder
+Processing AWS-Job
+Offering AWS-Job to Project Build Discarder
+Processing dsl-job
+Offering dsl-job to Project Build Discarder
+Processing job_dsl_example
+Offering job_dsl_example to Project Build Discarder
+Processing maven-job
+Offering maven-job to Project Build Discarder
+Processing playbook-users
+Offering playbook-users to Project Build Discarder
+Processing remote-Task
+Offering remote-Task to Project Build Discarder
+Processing Test2Job
+Offering Test2Job to Project Build Discarder
+Processing TestJob
+Offering TestJob to Project Build Discarder
+Finished at Tue Mar 03 20:21:09 UTC 2020. 48ms

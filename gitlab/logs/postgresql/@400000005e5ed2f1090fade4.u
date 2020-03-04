@@ -1,0 +1,27 @@
+2020-03-03_16:58:47.08704 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2020-03-03_16:58:50.36334 FATAL:  the database system is starting up
+2020-03-03_16:58:50.36383 LOG:  database system was interrupted; last known up at 2020-03-02 17:03:36 GMT
+2020-03-03_16:58:50.38700 FATAL:  the database system is starting up
+2020-03-03_16:58:50.40853 FATAL:  the database system is starting up
+2020-03-03_16:58:52.43670 FATAL:  the database system is starting up
+2020-03-03_16:58:52.45825 FATAL:  the database system is starting up
+2020-03-03_16:58:52.48016 FATAL:  the database system is starting up
+2020-03-03_16:58:54.51821 FATAL:  the database system is starting up
+2020-03-03_16:58:54.53778 FATAL:  the database system is starting up
+2020-03-03_16:58:54.56173 FATAL:  the database system is starting up
+2020-03-03_16:58:56.58721 FATAL:  the database system is starting up
+2020-03-03_16:58:56.60617 FATAL:  the database system is starting up
+2020-03-03_16:58:56.62557 FATAL:  the database system is starting up
+2020-03-03_16:58:58.66396 FATAL:  the database system is starting up
+2020-03-03_16:58:58.68530 FATAL:  the database system is starting up
+2020-03-03_16:58:58.70567 FATAL:  the database system is starting up
+2020-03-03_16:58:59.36502 LOG:  database system was not properly shut down; automatic recovery in progress
+2020-03-03_16:58:59.39282 LOG:  invalid record length at 0/2194DA0: wanted 24, got 0
+2020-03-03_16:58:59.39283 LOG:  redo is not required
+2020-03-03_16:59:00.76760 FATAL:  the database system is starting up
+2020-03-03_16:59:00.78664 FATAL:  the database system is starting up
+2020-03-03_16:59:00.80721 FATAL:  the database system is starting up
+2020-03-03_16:59:02.82213 FATAL:  the database system is starting up
+2020-03-03_16:59:02.84124 FATAL:  the database system is starting up
+2020-03-03_16:59:02.87353 FATAL:  the database system is starting up
+2020-03-03_16:59:04.13669 LOG:  database system is ready to accept connections

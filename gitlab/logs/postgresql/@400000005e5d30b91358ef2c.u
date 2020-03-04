@@ -1,0 +1,27 @@
+2020-02-28_19:53:22.02394 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2020-02-28_19:53:22.15529 LOG:  database system was interrupted; last known up at 2020-02-28 19:50:23 GMT
+2020-02-28_19:53:23.32101 LOG:  database system was not properly shut down; automatic recovery in progress
+2020-02-28_19:53:23.39408 LOG:  redo starts at 0/2169280
+2020-02-28_19:53:23.39410 LOG:  invalid record length at 0/216A8E8: wanted 24, got 0
+2020-02-28_19:53:23.39410 LOG:  redo done at 0/216A8C0
+2020-02-28_19:53:23.39410 LOG:  last completed transaction was at log time 2020-02-28 19:52:12.242521+00
+2020-02-28_19:53:23.54449 LOG:  database system is ready to accept connections
+2020-02-28_20:28:30.48131 LOG:  could not send data to client: Broken pipe
+2020-02-28_20:28:30.57901 FATAL:  connection to client lost
+2020-02-28_21:03:45.35327 received TERM from runit, sending INT instead to force quit connections
+2020-02-28_21:03:45.35533 LOG:  received fast shutdown request
+2020-02-28_21:03:45.63527 LOG:  aborting any active transactions
+2020-02-28_21:03:45.63529 FATAL:  terminating connection due to administrator command
+2020-02-28_21:03:45.63529 FATAL:  terminating connection due to administrator command
+2020-02-28_21:03:45.63529 FATAL:  terminating connection due to administrator command
+2020-02-28_21:03:45.63530 FATAL:  terminating connection due to administrator command
+2020-02-28_21:03:45.63530 FATAL:  terminating connection due to administrator command
+2020-02-28_21:03:45.63530 FATAL:  terminating connection due to administrator command
+2020-02-28_21:03:45.63530 FATAL:  terminating connection due to administrator command
+2020-02-28_21:03:45.63531 FATAL:  terminating connection due to administrator command
+2020-02-28_21:03:45.63531 FATAL:  terminating connection due to administrator command
+2020-02-28_21:03:45.63531 FATAL:  terminating connection due to administrator command
+2020-02-28_21:03:45.63662 FATAL:  terminating connection due to administrator command
+2020-02-28_21:03:45.63663 LOG:  worker process: logical replication launcher (PID 314) exited with exit code 1
+2020-02-28_21:03:45.63711 LOG:  shutting down
+2020-02-28_21:03:45.66033 LOG:  database system is shut down

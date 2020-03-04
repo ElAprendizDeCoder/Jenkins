@@ -1,3 +1,6 @@
 {"method":"POST","url":"http://127.0.0.1:8080/api/v4/internal/allowed","duration":0.123018019,"gitaly_embedded":true,"pid":3234,"level":"info","msg":"finished HTTP request","time":"2020-02-28T20:15:52+00:00"}
 {"method":"POST","url":"http://127.0.0.1:8080/api/v4/internal/pre_receive","duration":0.019666698,"gitaly_embedded":true,"pid":3234,"level":"info","msg":"finished HTTP request","time":"2020-02-28T20:15:52+00:00"}
 {"method":"POST","url":"http://127.0.0.1:8080/api/v4/internal/post_receive","duration":0.049066047,"gitaly_embedded":true,"pid":3265,"level":"info","msg":"finished HTTP request","time":"2020-02-28T20:15:53+00:00"}
+{"method":"POST","url":"http://127.0.0.1:8080/api/v4/internal/allowed","duration":0.608644798,"gitaly_embedded":true,"pid":24979,"level":"info","msg":"finished HTTP request","time":"2020-03-03T20:22:01+00:00"}
+{"method":"POST","url":"http://127.0.0.1:8080/api/v4/internal/pre_receive","duration":0.05105836,"gitaly_embedded":true,"pid":24979,"level":"info","msg":"finished HTTP request","time":"2020-03-03T20:22:02+00:00"}
+{"method":"POST","url":"http://127.0.0.1:8080/api/v4/internal/post_receive","duration":0.062476218,"gitaly_embedded":true,"pid":25003,"level":"info","msg":"finished HTTP request","time":"2020-03-03T20:22:02+00:00"}
