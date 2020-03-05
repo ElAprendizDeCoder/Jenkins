@@ -1,0 +1,102 @@
+2020-03-04_00:34:13.66705 239:C 04 Mar 2020 00:34:13.666 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2020-03-04_00:34:13.66711 239:C 04 Mar 2020 00:34:13.667 # Redis version=5.0.7, bits=64, commit=4891612b, modified=0, pid=239, just started
+2020-03-04_00:34:13.66711 239:C 04 Mar 2020 00:34:13.667 # Configuration loaded
+2020-03-04_00:34:13.66786 239:M 04 Mar 2020 00:34:13.667 * Running mode=standalone, port=0.
+2020-03-04_00:34:13.66789 239:M 04 Mar 2020 00:34:13.667 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2020-03-04_00:34:13.66789 239:M 04 Mar 2020 00:34:13.667 # Server initialized
+2020-03-04_00:34:13.66789 239:M 04 Mar 2020 00:34:13.667 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2020-03-04_00:34:13.66790 239:M 04 Mar 2020 00:34:13.667 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2020-03-04_00:34:13.66933 239:M 04 Mar 2020 00:34:13.669 * DB loaded from disk: 0.001 seconds
+2020-03-04_00:34:13.66933 239:M 04 Mar 2020 00:34:13.669 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2020-03-04_00:39:14.06396 239:M 04 Mar 2020 00:39:14.063 * 10 changes in 300 seconds. Saving...
+2020-03-04_00:39:14.06497 239:M 04 Mar 2020 00:39:14.064 * Background saving started by pid 1287
+2020-03-04_00:39:14.11785 1287:C 04 Mar 2020 00:39:14.117 * DB saved on disk
+2020-03-04_00:39:14.11823 1287:C 04 Mar 2020 00:39:14.118 * RDB: 6 MB of memory used by copy-on-write
+2020-03-04_00:39:14.16472 239:M 04 Mar 2020 00:39:14.164 * Background saving terminated with success
+2020-03-04_00:44:15.02640 239:M 04 Mar 2020 00:44:15.026 * 10 changes in 300 seconds. Saving...
+2020-03-04_00:44:15.02746 239:M 04 Mar 2020 00:44:15.027 * Background saving started by pid 1906
+2020-03-04_00:44:15.06644 1906:C 04 Mar 2020 00:44:15.066 * DB saved on disk
+2020-03-04_00:44:15.06683 1906:C 04 Mar 2020 00:44:15.066 * RDB: 4 MB of memory used by copy-on-write
+2020-03-04_00:44:15.12824 239:M 04 Mar 2020 00:44:15.128 * Background saving terminated with success
+2020-03-04_00:49:16.05748 239:M 04 Mar 2020 00:49:16.057 * 10 changes in 300 seconds. Saving...
+2020-03-04_00:49:16.05778 239:M 04 Mar 2020 00:49:16.057 * Background saving started by pid 2534
+2020-03-04_00:49:16.13647 2534:C 04 Mar 2020 00:49:16.136 * DB saved on disk
+2020-03-04_00:49:16.13697 2534:C 04 Mar 2020 00:49:16.136 * RDB: 2 MB of memory used by copy-on-write
+2020-03-04_00:49:16.15811 239:M 04 Mar 2020 00:49:16.158 * Background saving terminated with success
+2020-03-04_00:54:17.00912 239:M 04 Mar 2020 00:54:17.008 * 10 changes in 300 seconds. Saving...
+2020-03-04_00:54:17.01043 239:M 04 Mar 2020 00:54:17.010 * Background saving started by pid 3147
+2020-03-04_00:54:17.24496 3147:C 04 Mar 2020 00:54:17.244 * DB saved on disk
+2020-03-04_00:54:17.24537 3147:C 04 Mar 2020 00:54:17.245 * RDB: 5 MB of memory used by copy-on-write
+2020-03-04_00:54:17.31360 239:M 04 Mar 2020 00:54:17.313 * Background saving terminated with success
+2020-03-04_00:59:18.03989 239:M 04 Mar 2020 00:59:18.039 * 10 changes in 300 seconds. Saving...
+2020-03-04_00:59:18.04019 239:M 04 Mar 2020 00:59:18.040 * Background saving started by pid 3731
+2020-03-04_00:59:18.08101 3731:C 04 Mar 2020 00:59:18.080 * DB saved on disk
+2020-03-04_00:59:18.08162 3731:C 04 Mar 2020 00:59:18.081 * RDB: 3 MB of memory used by copy-on-write
+2020-03-04_00:59:18.14137 239:M 04 Mar 2020 00:59:18.141 * Background saving terminated with success
+2020-03-04_01:04:19.07359 239:M 04 Mar 2020 01:04:19.073 * 10 changes in 300 seconds. Saving...
+2020-03-04_01:04:19.07363 239:M 04 Mar 2020 01:04:19.073 * Background saving started by pid 4338
+2020-03-04_01:04:19.14697 4338:C 04 Mar 2020 01:04:19.146 * DB saved on disk
+2020-03-04_01:04:19.14761 4338:C 04 Mar 2020 01:04:19.147 * RDB: 3 MB of memory used by copy-on-write
+2020-03-04_01:04:19.17410 239:M 04 Mar 2020 01:04:19.174 * Background saving terminated with success
+2020-03-04_01:09:20.08269 239:M 04 Mar 2020 01:09:20.082 * 10 changes in 300 seconds. Saving...
+2020-03-04_01:09:20.08297 239:M 04 Mar 2020 01:09:20.082 * Background saving started by pid 4918
+2020-03-04_01:09:20.14532 4918:C 04 Mar 2020 01:09:20.145 * DB saved on disk
+2020-03-04_01:09:20.14577 4918:C 04 Mar 2020 01:09:20.145 * RDB: 3 MB of memory used by copy-on-write
+2020-03-04_01:09:20.18294 239:M 04 Mar 2020 01:09:20.182 * Background saving terminated with success
+2020-03-04_01:14:21.02037 239:M 04 Mar 2020 01:14:21.020 * 10 changes in 300 seconds. Saving...
+2020-03-04_01:14:21.02075 239:M 04 Mar 2020 01:14:21.020 * Background saving started by pid 5505
+2020-03-04_01:14:21.11773 5505:C 04 Mar 2020 01:14:21.117 * DB saved on disk
+2020-03-04_01:14:21.11823 5505:C 04 Mar 2020 01:14:21.118 * RDB: 2 MB of memory used by copy-on-write
+2020-03-04_01:14:21.12066 239:M 04 Mar 2020 01:14:21.120 * Background saving terminated with success
+2020-03-04_01:19:22.03628 239:M 04 Mar 2020 01:19:22.036 * 10 changes in 300 seconds. Saving...
+2020-03-04_01:19:22.03665 239:M 04 Mar 2020 01:19:22.036 * Background saving started by pid 6103
+2020-03-04_01:19:22.09011 6103:C 04 Mar 2020 01:19:22.090 * DB saved on disk
+2020-03-04_01:19:22.09076 6103:C 04 Mar 2020 01:19:22.090 * RDB: 2 MB of memory used by copy-on-write
+2020-03-04_01:19:22.13716 239:M 04 Mar 2020 01:19:22.137 * Background saving terminated with success
+2020-03-04_01:24:23.08316 239:M 04 Mar 2020 01:24:23.083 * 10 changes in 300 seconds. Saving...
+2020-03-04_01:24:23.08441 239:M 04 Mar 2020 01:24:23.083 * Background saving started by pid 6708
+2020-03-04_01:24:23.13272 6708:C 04 Mar 2020 01:24:23.132 * DB saved on disk
+2020-03-04_01:24:23.13321 6708:C 04 Mar 2020 01:24:23.133 * RDB: 3 MB of memory used by copy-on-write
+2020-03-04_01:24:23.18418 239:M 04 Mar 2020 01:24:23.184 * Background saving terminated with success
+2020-03-04_01:29:24.02177 239:M 04 Mar 2020 01:29:24.021 * 10 changes in 300 seconds. Saving...
+2020-03-04_01:29:24.02205 239:M 04 Mar 2020 01:29:24.022 * Background saving started by pid 7295
+2020-03-04_01:29:24.10411 7295:C 04 Mar 2020 01:29:24.104 * DB saved on disk
+2020-03-04_01:29:24.10459 7295:C 04 Mar 2020 01:29:24.104 * RDB: 2 MB of memory used by copy-on-write
+2020-03-04_01:29:24.12271 239:M 04 Mar 2020 01:29:24.122 * Background saving terminated with success
+2020-03-04_01:34:25.08533 239:M 04 Mar 2020 01:34:25.085 * 10 changes in 300 seconds. Saving...
+2020-03-04_01:34:25.08617 239:M 04 Mar 2020 01:34:25.086 * Background saving started by pid 7890
+2020-03-04_01:34:25.12405 7890:C 04 Mar 2020 01:34:25.124 * DB saved on disk
+2020-03-04_01:34:25.12504 7890:C 04 Mar 2020 01:34:25.125 * RDB: 4 MB of memory used by copy-on-write
+2020-03-04_01:34:25.18731 239:M 04 Mar 2020 01:34:25.187 * Background saving terminated with success
+2020-03-04_01:39:26.02364 239:M 04 Mar 2020 01:39:26.023 * 10 changes in 300 seconds. Saving...
+2020-03-04_01:39:26.02457 239:M 04 Mar 2020 01:39:26.024 * Background saving started by pid 8478
+2020-03-04_01:39:26.07815 8478:C 04 Mar 2020 01:39:26.078 * DB saved on disk
+2020-03-04_01:39:26.07856 8478:C 04 Mar 2020 01:39:26.078 * RDB: 4 MB of memory used by copy-on-write
+2020-03-04_01:39:26.12551 239:M 04 Mar 2020 01:39:26.125 * Background saving terminated with success
+2020-03-04_01:44:27.03157 239:M 04 Mar 2020 01:44:27.031 * 10 changes in 300 seconds. Saving...
+2020-03-04_01:44:27.03260 239:M 04 Mar 2020 01:44:27.032 * Background saving started by pid 9067
+2020-03-04_01:44:27.06168 9067:C 04 Mar 2020 01:44:27.061 * DB saved on disk
+2020-03-04_01:44:27.06214 9067:C 04 Mar 2020 01:44:27.062 * RDB: 4 MB of memory used by copy-on-write
+2020-03-04_01:44:27.13289 239:M 04 Mar 2020 01:44:27.132 * Background saving terminated with success
+2020-03-04_01:49:28.07961 239:M 04 Mar 2020 01:49:28.079 * 10 changes in 300 seconds. Saving...
+2020-03-04_01:49:28.08211 239:M 04 Mar 2020 01:49:28.080 * Background saving started by pid 9659
+2020-03-04_01:49:28.12250 9659:C 04 Mar 2020 01:49:28.122 * DB saved on disk
+2020-03-04_01:49:28.12287 9659:C 04 Mar 2020 01:49:28.122 * RDB: 4 MB of memory used by copy-on-write
+2020-03-04_01:49:28.18111 239:M 04 Mar 2020 01:49:28.181 * Background saving terminated with success
+2020-03-04_01:54:29.04664 239:M 04 Mar 2020 01:54:29.046 * 10 changes in 300 seconds. Saving...
+2020-03-04_01:54:29.04752 239:M 04 Mar 2020 01:54:29.047 * Background saving started by pid 10252
+2020-03-04_01:54:29.09095 10252:C 04 Mar 2020 01:54:29.090 * DB saved on disk
+2020-03-04_01:54:29.09142 10252:C 04 Mar 2020 01:54:29.091 * RDB: 5 MB of memory used by copy-on-write
+2020-03-04_01:54:29.14831 239:M 04 Mar 2020 01:54:29.148 * Background saving terminated with success
+2020-03-04_01:59:30.09731 239:M 04 Mar 2020 01:59:30.097 * 10 changes in 300 seconds. Saving...
+2020-03-04_01:59:30.09821 239:M 04 Mar 2020 01:59:30.098 * Background saving started by pid 10834
+2020-03-04_01:59:30.18998 10834:C 04 Mar 2020 01:59:30.189 * DB saved on disk
+2020-03-04_01:59:30.19060 10834:C 04 Mar 2020 01:59:30.190 * RDB: 4 MB of memory used by copy-on-write
+2020-03-04_01:59:30.19911 239:M 04 Mar 2020 01:59:30.199 * Background saving terminated with success
+2020-03-04_02:00:40.32374 239:signal-handler (1583287240) Received SIGTERM scheduling shutdown...
+2020-03-04_02:00:40.34907 239:M 04 Mar 2020 02:00:40.349 # User requested shutdown...
+2020-03-04_02:00:40.34908 239:M 04 Mar 2020 02:00:40.349 * Saving the final RDB snapshot before exiting.
+2020-03-04_02:00:40.37882 239:M 04 Mar 2020 02:00:40.378 * DB saved on disk
+2020-03-04_02:00:40.37883 239:M 04 Mar 2020 02:00:40.378 * Removing the pid file.
+2020-03-04_02:00:40.38135 239:M 04 Mar 2020 02:00:40.381 * Removing the unix socket file.
+2020-03-04_02:00:40.38135 239:M 04 Mar 2020 02:00:40.381 # Redis is now ready to exit, bye bye...

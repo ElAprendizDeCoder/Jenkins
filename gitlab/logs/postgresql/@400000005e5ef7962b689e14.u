@@ -1,0 +1,21 @@
+2020-03-03_21:58:01.19629 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2020-03-03_21:58:02.17484 LOG:  database system was interrupted; last known up at 2020-03-03 20:30:07 GMT
+2020-03-03_21:58:02.17736 FATAL:  the database system is starting up
+2020-03-03_21:58:03.23424 FATAL:  the database system is starting up
+2020-03-03_21:58:05.24481 FATAL:  the database system is starting up
+2020-03-03_21:58:06.96589 LOG:  database system was not properly shut down; automatic recovery in progress
+2020-03-03_21:58:06.97948 LOG:  invalid record length at 0/219ED18: wanted 24, got 0
+2020-03-03_21:58:06.97949 LOG:  redo is not required
+2020-03-03_21:58:07.05735 LOG:  database system is ready to accept connections
+2020-03-03_21:59:25.58384 received TERM from runit, sending INT instead to force quit connections
+2020-03-03_21:59:25.58473 LOG:  received fast shutdown request
+2020-03-03_21:59:25.65926 LOG:  aborting any active transactions
+2020-03-03_21:59:25.65928 FATAL:  terminating connection due to administrator command
+2020-03-03_21:59:25.65928 FATAL:  terminating connection due to administrator command
+2020-03-03_21:59:25.65929 FATAL:  terminating connection due to administrator command
+2020-03-03_21:59:25.65929 FATAL:  terminating connection due to administrator command
+2020-03-03_21:59:25.65929 FATAL:  terminating connection due to administrator command
+2020-03-03_21:59:25.66081 FATAL:  terminating connection due to administrator command
+2020-03-03_21:59:25.66118 LOG:  worker process: logical replication launcher (PID 428) exited with exit code 1
+2020-03-03_21:59:25.66118 LOG:  shutting down
+2020-03-03_21:59:25.71875 LOG:  database system is shut down

@@ -1,4 +1,11 @@
-Started at Mon Feb 24 16:33:33 UTC 2020
+Started at Thu Mar 05 19:47:35 UTC 2020
+Checking ansible-job
+Checking AWS-Job
+Checking dsl-job
+Checking job_dsl_example
+Checking maven-job
+Checking playbook-users
+Checking remote-Task
 Checking Test2Job
 Checking TestJob
-Finished at Mon Feb 24 16:33:33 UTC 2020. 6ms
+Finished at Thu Mar 05 19:47:35 UTC 2020. 8ms

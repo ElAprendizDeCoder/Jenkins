@@ -1,3 +1,1 @@
-{"severity":"INFO","time":"2020-03-03T17:13:29.808Z","correlation_id":"qpvCCb7FhF2","message":"Successful Login: username=root ip=200.52.82.218 method=standard admin=true"}
-{"severity":"INFO","time":"2020-03-03T20:21:58.812Z","correlation_id":"05UPc5F9588","message":"jenkins created a new project \"jenkins / gitlab-demo\""}
-{"severity":"DEBUG","time":"2020-03-03T21:58:27.101Z","correlation_id":null,"message":"DB connection pool size: 27 (increased from 1 to match thread count)"}
+{"severity":"INFO","time":"2020-03-05T21:45:48.293Z","correlation_id":"M0sKfmeqa08","message":"Successful Login: username=root ip=200.52.82.218 method=standard admin=true"}
